@@ -1,0 +1,45 @@
+
+Progressive checkboxes, in the context of user interface design, refer to a pattern where the state of one checkbox can influence or be influenced by the state of other checkboxes, often in a hierarchical or dependent manner. This approach enhances user experience by streamlining interactions and providing clear relationships between options.
+
+One common implementation of progressive checkboxes involves a parent-child relationship. A parent checkbox controls the state of multiple child checkboxes. When the parent checkbox is checked, all child checkboxes are automatically checked as well. Conversely, when the parent checkbox is unchecked, all child checkboxes are unchecked. Additionally, if some, but not all, child checkboxes are checked, the parent checkbox may enter an "indeterminate" state, visually indicating partial selection.
+
+<div>
+    <label>
+        <input type="checkbox" id="parentCheckbox"> Parent Option
+    </label>
+    <div id="childCheckboxes">
+        <label>
+            <input type="checkbox" class="childCheckbox"> Child Option 1
+        </label><br>
+        <label>
+            <input type="checkbox" class="childCheckbox"> Child Option 2
+        </label><br>
+        <label>
+            <input type="checkbox" class="childCheckbox"> Child Option 3
+        </label>
+    </div>
+</div>
+
+<script>
+    const parentCheckbox = document.getElementById('parentCheckbox');
+    const childCheckboxes = document.querySelectorAll('.childCheckbox');
+
+    parentCheckbox.addEventListener('change', function() {
+        childCheckboxes.forEach(checkbox => {
+            checkbox.checked = this.checked;
+        });
+    });
+
+    childCheckboxes.forEach(checkbox => {
+        checkbox.addEventListener('change', function() {
+            const allChecked = Array.from(childCheckboxes).every(checkbox => checkbox.checked);
+            const noneChecked = Array.from(childCheckboxes).every(checkbox => !checkbox.checked);
+
+            parentCheckbox.checked = allChecked;
+            parentCheckbox.indeterminate = !allChecked && !noneChecked;
+        });
+    });
+</script>
+
+
+This code snippet sets up a parent checkbox that controls three child checkboxes. Checking the parent checks all children, and unchecking it unchecks all children. If the child checkboxes are in a mixed state, the parent checkbox will show an indeterminate state.
