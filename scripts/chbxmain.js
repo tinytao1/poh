@@ -1,87 +1,90 @@
 
 
-const c1 = document.getElementById('c1');
-const c2 = document.getElementById('c2');
-const c3 = document.getElementById('c3');
-const c4 = document.getElementById('c4');
-const c5 = document.getElementById('c5');
-const c6 = document.getElementById('c6');
+//document.getElementById('test')
+//.innerHTML = "TEST";
 
-c1.addEventListener('change', function () {
-	if (c1.checked == false || c1.checked == true) {
-		c2.checked = false;
-		c3.checked = false;
-		c4.checked = false;
-		c5.checked = false;
-		c6.checked = false;
+
+
+a1.addEventListener('change', function() {
+	if (a1.checked == false || a1.checked == true) {
+		a2.checked = false;
+		a3.checked = false;
+		a4.checked = false;
+		a5.checked = false;
+		a6.checked = false;
 	}
-})
+});
 
-c2.addEventListener('change', function () {
-	if (c2.checked == true) {
-		c1.checked = true;
-		c3.checked = false;
-		c4.checked = false;
-		c5.checked = false;
-		c6.checked = false;
+
+
+/*
+el2.addEventListener('change', function () {
+	if (el2.checked == true) {
+		el1.checked = true;
+		el3.checked = false;
+		el4.checked = false;
+		el5.checked = false;
+		el6.checked = false;
 	} else {
-		c3.checked = false;
-		c4.checked = false;
-		c5.checked = false;
-		c6.checked = false;
+		el3.checked = false;
+		el4.checked = false;
+		el5.checked = false;
+		el6.checked = false;
 	}
-})
+});
 
-c3.addEventListener('change', function () {
-	if (c3.checked == true) {
-		c1.checked = true;
-		c2.checked = true;
-		c4.checked = false;
-		c5.checked = false;
-		c6.checked = false;
+el3.addEventListener('change', function () {
+	if (el3.checked == true) {
+		el1.checked = true;
+		el2.checked = true;
+		el4.checked = false;
+		el5.checked = false;
+		el6.checked = false;
 	} else {
-		c4.checked = false;
-		c5.checked = false;
-		c6.checked = false;
+		el4.checked = false;
+		el5.checked = false;
+		el6.checked = false;
 	}
-})
+});
 
-c4.addEventListener('change', function () {
-	if (c4.checked == true) {
-		c1.checked = true;
-		c2.checked = true;
-		c3.checked = true;
-		c5.checked = false;
-		c6.checked = false;
+el4.addEventListener('change', function () {
+	if (el4.checked == true) {
+		el1.checked = true;
+		el2.checked = true;
+		el3.checked = true;
+		el5.checked = false;
+		el6.checked = false;
 	} else {
-		c5.checked = false;
-		c6.checked = false;
+		el5.checked = false;
+		el6.checked = false;
 	}
-})
+});
 
-c5.addEventListener('change', function () {
-	if (c5.checked == true) {
-		c1.checked = true;
-		c2.checked = true;
-		c3.checked = true;
-		c4.checked = true;
-		c6.checked = false;
+el5.addEventListener('change', function () {
+	if (el5.checked == true) {
+		el1.checked = true;
+		el2.checked = true;
+		el3.checked = true;
+		el4.checked = true;
+		el6.checked = false;
 	} else {
-		c6.checked = false;
+		el6.checked = false;
 	}
-})
+});
 
-c6.addEventListener('change', function () {
-	if (c6.checked == true) {
-		c1.checked = true;
-		c2.checked = true;
-		c3.checked = true;
-		c4.checked = true;
-		c5.checked = true;
+el6.addEventListener('change', function () {
+	if (el6.checked == true) {
+		el1.checked = true;
+		el2.checked = true;
+		el3.checked = true;
+		el4.checked = true;
+		el5.checked = true;
 	}
-})
+});
 
 
+
+*/
 
 
 
