@@ -87,7 +87,7 @@ const i3 = document.getElementById('i3');
 const i4 = document.getElementById('i4');
 const i5 = document.getElementById('i5');
 const i6 = document.getElementById('i6');
-h
+
 // J-10
 const j1 = document.hgetElementById('j1');
 const j2 = document.getElementById('j2');
