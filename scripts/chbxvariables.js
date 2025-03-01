@@ -4,8 +4,19 @@
 
 
 
+let acounter = 0;
+let bcounter = 0;
+let ccounter = 0;
+let dcounter = 0;
+let ecounter = 0;
+let fcounter = 0;
+let gcounter = 0;
+let hcounter = 0;
+let icounter = 0;
+let jcounter = 0;
 
-// A-1
+
+// A-1 thru J-10
 const a1 = document.getElementById('a1');
 const a2 = document.getElementById('a2');
 const a3 = document.getElementById('a3');
