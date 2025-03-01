@@ -15,7 +15,6 @@ let hcounter = 0;
 let icounter = 0;
 let jcounter = 0;
 
-
 // A-1 thru J-10
 const a1 = document.getElementById('a1');
 const a2 = document.getElementById('a2');

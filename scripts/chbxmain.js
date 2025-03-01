@@ -9,6 +9,11 @@ a1.addEventListener('change', function() {
 		document.getElementById('test').innerHTML = `acounter = ${acounter}`;
 	} else {
 		acounter = 0;
+		a2.checked = false;
+		a3.checked = false;
+		a4.checked = false;
+		a5.checked = false;
+		a6.checked = false;
 		document.getElementById('test').innerHTML = `acounter = ${acounter}`;
 	}
 });
@@ -19,6 +24,11 @@ a2.addEventListener('change', function() {
 		document.getElementById('test').innerHTML = `acounter = ${acounter}`;
 	} else if (a1.checked == true) {
 		acounter = 1;
+		a2.checked = false;
+		a3.checked = false;
+		a4.checked = false;
+		a5.checked = false;
+		a6.checked = false;
 		document.getElementById('test').innerHTML = `acounter = ${acounter}`;
 	} else {
 		acounter = 0;
