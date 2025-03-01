@@ -1,7 +1,10 @@
 
 
+let CDS = '3/1/2025';
+let CTS = '3:34 PM';
 
-
+document.getElementById('committed')
+.innerHTML = `committed: ${CDS}` + <br /> + `${CTS}.`;
 
 a1.addEventListener('change', function() {
 	if (a1.checked == true) {
