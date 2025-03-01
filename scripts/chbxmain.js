@@ -123,13 +123,32 @@ a5.addEventListener('change', function() {
 		a3.checked = false;
 		a4.checked = false;
 		a5.checked = false;
-		a6.checked = false;
+		a2.checked = false;
 		document.getElementById('test').innerHTML = `acounter = ${acounter}`;
 	}
 });
 
 
 
+a6.addEventListener('change', function() {
+	if (a6.checked == true) {
+		acounter = 6;
+		a1.checked = true;
+		a3.checked = true;
+		a4.checked = true;
+		a5.checked = true;
+		a6.checked = true;
+		document.getElementById('test').innerHTML = `acounter = ${acounter}`;
+	} else {
+		acounter = 0;
+		a1.checked = false;
+		a3.checked = false;
+		a4.checked = false;
+		a5.checked = false;
+		a2.checked = false;
+		document.getElementById('test').innerHTML = `acounter = ${acounter}`;
+	}
+});
 
 
 
