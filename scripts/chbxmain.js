@@ -8,7 +8,6 @@ a1.addEventListener('change', function() {
 		acounter = 0;
 	} else {acounter = 1;
 	};
-	document.getElementById('test').innerHTML = `inside listener acounter = ${acounter}`;
 });
 
 document.getElementById('test').innerHTML = `acounter = ${acounter}`;
