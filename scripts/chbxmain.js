@@ -4,9 +4,12 @@
 
 
 a1.addEventListener('change', function() {
-	if (a1.checked == false) {
+	if (a1.checked == true) {
+		acounter = 1;
+	} else {
 		acounter = 0;
-	} else {acounter = 1;
+		document.getElementById('test').innerHTML = `acounter = ${acounter}`;
+
 	}
 });
 
