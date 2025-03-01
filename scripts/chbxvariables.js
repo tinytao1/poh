@@ -3,6 +3,8 @@
 
 
 
+
+/*
 // A-1
 const a1 = document.getElementById('a1');
 const a2 = document.getElementById('a2');
@@ -20,7 +22,6 @@ const b5 = document.getElementById('b5');
 const b6 = document.getElementById('b6');
 
 // C-3
-/*
 const 1 = document.getElementById('1');
 const 2 = document.getElementById('2');
 const 3 = document.getElementById('3');
@@ -75,7 +76,7 @@ const 3 = document.getElementById('3');
 const 4 = document.getElementById('4');
 const 5 = document.getElementById('5');
 const 6 = document.getElementById('6');
-*/
+
 // J-10
 const j1 = document.getElementById('j1');
 const j2 = document.getElementById('j2');
@@ -83,7 +84,7 @@ const j3 = document.getElementById('j3');
 const j4 = document.getElementById('j4');
 const j5 = document.getElementById('j5');
 const j6 = document.getElementById('j6');
-
+*/
 
 
 
