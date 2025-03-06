@@ -16,8 +16,8 @@ let icounter = 0;
 let jcounter = 0;
 
 // Buttons Checkbox view
-const unchecktop = document.getElementById('uncheckalltop');
-const uncheckbtm = document.getElementById('uncheckallbtm');
+const uncheckalltop = document.getElementById('uncheckalltop');
+const uncheckallbtm = document.getElementById('uncheckallbtm');
 
 // A-1 thru J-10
 const a1 = document.getElementById('a1');
