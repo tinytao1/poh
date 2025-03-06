@@ -23,7 +23,7 @@ a1.addEventListener('change', function() {
 		a4.checked = false;
 		a5.checked = false;
 		a6.checked = false;
-		document.getElementById('test').innerHTML = `acounter = ${acounter}`;
+		document.getElementById('test').innerHTML = `${acounter}`;
 	} else {
 		acounter = 0;
 		a2.checked = false;
@@ -31,7 +31,7 @@ a1.addEventListener('change', function() {
 		a4.checked = false;
 		a5.checked = false;
 		a6.checked = false;
-		document.getElementById('test').innerHTML = `acounter = ${acounter}`;
+		document.getElementById('test').innerHTML = `${acounter}`;
 	}
 });
 
@@ -43,7 +43,7 @@ a2.addEventListener('change', function() {
 		a4.checked = false;
 		a5.checked = false;
 		a6.checked = false;
-		document.getElementById('test').innerHTML = `acounter = ${acounter}`;
+		document.getElementById('test').innerHTML = `${acounter}`;
 	} else {
 		acounter = 0;
 		a1.checked = false;
@@ -51,7 +51,7 @@ a2.addEventListener('change', function() {
 		a4.checked = false;
 		a5.checked = false;
 		a6.checked = false;
-		document.getElementById('test').innerHTML = `acounter = ${acounter}`;
+		document.getElementById('test').innerHTML = `${acounter}`;
 	}
 });
 
@@ -63,7 +63,7 @@ a3.addEventListener('change', function() {
 		a4.checked = false;
 		a5.checked = false;
 		a6.checked = false;
-		document.getElementById('test').innerHTML = `acounter = ${acounter}`;
+		document.getElementById('test').innerHTML = `${acounter}`;
 	} else {
 		acounter = 0;
 		a1.checked = false;
@@ -71,7 +71,7 @@ a3.addEventListener('change', function() {
 		a4.checked = false;
 		a5.checked = false;
 		a6.checked = false;
-		document.getElementById('test').innerHTML = `acounter = ${acounter}`;
+		document.getElementById('test').innerHTML = `${acounter}`;
 	}
 });
 
@@ -83,7 +83,7 @@ a4.addEventListener('change', function() {
 		a3.checked = true;
 		a5.checked = false;
 		a6.checked = false;
-		document.getElementById('test').innerHTML = `acounter = ${acounter}`;
+		document.getElementById('test').innerHTML = `${acounter}`;
 	} else {
 		acounter = 0;
 		a1.checked = false;
@@ -91,7 +91,7 @@ a4.addEventListener('change', function() {
 		a3.checked = false;
 		a5.checked = false;
 		a6.checked = false;
-		document.getElementById('test').innerHTML = `acounter = ${acounter}`;
+		document.getElementById('test').innerHTML = `${acounter}`;
 	}
 });
 
@@ -103,7 +103,7 @@ a5.addEventListener('change', function() {
 		a3.checked = true;
 		a4.checked = true;
 		a6.checked = false;
-		document.getElementById('test').innerHTML = `acounter = ${acounter}`;
+		document.getElementById('test').innerHTML = `${acounter}`;
 	} else {
 		acounter = 0;
 		a1.checked = false;
@@ -111,7 +111,7 @@ a5.addEventListener('change', function() {
 		a3.checked = false;
 		a4.checked = false;
 		a6.checked = false;
-		document.getElementById('test').innerHTML = `acounter = ${acounter}`;
+		document.getElementById('test').innerHTML = `${acounter}`;
 	}
 });
 
@@ -123,7 +123,7 @@ a6.addEventListener('change', function() {
 		a3.checked = true;
 		a4.checked = true;
 		a5.checked = true;
-		document.getElementById('test').innerHTML = `acounter = ${acounter}`;
+		document.getElementById('test').innerHTML = `${acounter}`;
 	} else {
 		acounter = 0;
 		a1.checked = false;
@@ -131,7 +131,7 @@ a6.addEventListener('change', function() {
 		a3.checked = false;
 		a4.checked = false;
 		a5.checked = false;
-		document.getElementById('test').innerHTML = `acounter = ${acounter}`;
+		document.getElementById('test').innerHTML = `${acounter}`;
 	}
 });
 
