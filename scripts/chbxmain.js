@@ -10,8 +10,8 @@ let CTS = '4:08 PM';
 document.getElementById('committed')
 .innerHTML = `committed: ${CDS}<br />${CTS}.`;
 
-uncheckalltop.addEventListener('click', uncheckall());
-uncheckallbtm.addEventListener('click', uncheckall());
+uncheckalltop.addEventListener('click', uncheckall);
+uncheckallbtm.addEventListener('click', uncheckall);
 
 
 
