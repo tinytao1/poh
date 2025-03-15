@@ -13,8 +13,6 @@ document.getElementById('committed')
 uncheckalltop.addEventListener('click', uncheckall);
 uncheckallbtm.addEventListener('click', uncheckall);
 
-
-
 a1.addEventListener('change', function() {
 	if (a1.checked == true) {
 		acounter = 1;
@@ -134,8 +132,6 @@ a6.addEventListener('change', function() {
 		document.getElementById('test').innerHTML = `${acounter}`;
 	}
 });
-
-
 
 function uncheckall() {
   a1.checked = false;
