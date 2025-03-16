@@ -1,47 +1,176 @@
 
-These notes are from Google:
+<input type='checkbox' id='a1' >
+<input type='checkbox' id='a2' >
+<input type='checkbox' id='a3' >
+<input type='checkbox' id='a4' >
+<input type='checkbox' id='a5' >
+<input type='checkbox' id='a6' >
 
-Progressive checkboxes, in the context of user interface design, refer to a pattern where the state of one checkbox can influence or be influenced by the state of other checkboxes, often in a hierarchical or dependent manner. This approach enhances user experience by streamlining interactions and providing clear relationships between options.
-
-One common implementation of progressive checkboxes involves a parent-child relationship. A parent checkbox controls the state of multiple child checkboxes. When the parent checkbox is checked, all child checkboxes are automatically checked as well. Conversely, when the parent checkbox is unchecked, all child checkboxes are unchecked. Additionally, if some, but not all, child checkboxes are checked, the parent checkbox may enter an "indeterminate" state, visually indicating partial selection.
-
-<div>
-    <label>
-        <input type="checkbox" id="parentCheckbox"> Parent Option
-    </label>
-    <div id="childCheckboxes">
-        <label>
-            <input type="checkbox" class="childCheckbox"> Child Option 1
-        </label><br>
-        <label>
-            <input type="checkbox" class="childCheckbox"> Child Option 2
-        </label><br>
-        <label>
-            <input type="checkbox" class="childCheckbox"> Child Option 3
-        </label>
-    </div>
-</div>
-
+<br><br>
+<p>counter: 
+  <span id='demo'>0</span>
+</p>
 <script>
-    const parentCheckbox = document.getElementById('parentCheckbox');
-    const childCheckboxes = document.querySelectorAll('.childCheckbox');
 
-    parentCheckbox.addEventListener('change', function() {
-        childCheckboxes.forEach(checkbox => {
-            checkbox.checked = this.checked;
-        });
-    });
+const a1 = document.getElementById('a1');
+const a2 = document.getElementById('a2');
+const a3 = document.getElementById('a3');
+const a4 = document.getElementById('a4');
+const a5 = document.getElementById('a5');
+const a6 = document.getElementById('a6');
+const demo = document.getElementById('demo'); 
 
-    childCheckboxes.forEach(checkbox => {
-        checkbox.addEventListener('change', function() {
-            const allChecked = Array.from(childCheckboxes).every(checkbox => checkbox.checked);
-            const noneChecked = Array.from(childCheckboxes).every(checkbox => !checkbox.checked);
+let counterrow = 0;
 
-            parentCheckbox.checked = allChecked;
-            parentCheckbox.indeterminate = !allChecked && !noneChecked;
-        });
-    });
+a1.addEventListener('change', function() {
+				checkboxrow1behavior(a1,a2,a3,a4,a5,a6);
+})
+a2.addEventListener('change', function() {
+				checkboxrow2behavior(a1,a2,a3,a4,a5,a6);
+})
+a3.addEventListener('change', function() {
+				checkboxrow3behavior(a1,a2,a3,a4,a5,a6);
+})
+a4.addEventListener('change', function() {
+				checkboxrow4behavior(a1,a2,a3,a4,a5,a6);
+})
+a5.addEventListener('change', function() {
+				checkboxrow5behavior(a1,a2,a3,a4,a5,a6);
+})
+a6.addEventListener('change', function() {
+				checkboxrow6behavior(a1,a2,a3,a4,a5,a6);
+})
+
+function checkboxrow1behavior(id1,id2,id3,id4,id5,id6) {
+			if (id1.checked == true) {
+            		id1.checked = true;
+            		id2.checked = false;
+            		id3.checked = false;
+            		id4.checked = false;
+            		id5.checked = false;
+            		id6.checked = false;
+                    counterrow = 1;
+                    demo.innerHTML = counterrow;
+            } else {
+            		id1.checked = false;
+            		id2.checked = false;
+            		id3.checked = false;
+            		id4.checked = false;
+            		id5.checked = false;
+            		id6.checked = false;
+                    counterrow = 0;
+                    demo.innerHTML = counterrow;
+            }
+}
+
+function checkboxrow2behavior(id1,id2,id3,id4,id5,id6) {
+			if (id2.checked == true) {
+            		id1.checked = true;
+            		id2.checked = true;
+            		id3.checked = false;
+            		id4.checked = false;
+            		id5.checked = false;
+            		id6.checked = false;
+                    counterrow = 2;
+                    demo.innerHTML = counterrow;
+            } else {
+            		id1.checked = false;
+            		id2.checked = false;
+            		id3.checked = false;
+            		id4.checked = false;
+            		id5.checked = false;
+            		id6.checked = false;
+                    counterrow = 0;
+                    demo.innerHTML = counterrow;
+            }
+}
+
+function checkboxrow3behavior(id1,id2,id3,id4,id5,id6) {
+			if (id3.checked == true) {
+            		id1.checked = true;
+            		id2.checked = true;
+            		id3.checked = true;
+            		id4.checked = false;
+            		id5.checked = false;
+            		id6.checked = false;
+                    counterrow = 3;
+                    demo.innerHTML = counterrow;
+            } else {
+            		id1.checked = false;
+            		id2.checked = false;
+            		id3.checked = false;
+            		id4.checked = false;
+            		id5.checked = false;
+            		id6.checked = false;
+                    counterrow = 0;
+                    demo.innerHTML = counterrow;
+            }
+}
+
+function checkboxrow4behavior(id1,id2,id3,id4,id5,id6) {
+			if (id4.checked == true) {
+            		id1.checked = true;
+            		id2.checked = true;
+            		id3.checked = true;
+            		id4.checked = true;
+            		id5.checked = false;
+            		id6.checked = false;
+                    counterrow = 4;
+                    demo.innerHTML = counterrow;
+            } else {
+            		id1.checked = false;
+            		id2.checked = false;
+            		id3.checked = false;
+            		id4.checked = false;
+            		id5.checked = false;
+            		id6.checked = false;
+                    counterrow = 0;
+                    demo.innerHTML = counterrow;
+            }
+}
+
+function checkboxrow5behavior(id1,id2,id3,id4,id5,id6) {
+			if (id5.checked == true) {
+            		id1.checked = true;
+            		id2.checked = true;
+            		id3.checked = true;
+            		id4.checked = true;
+            		id5.checked = true;
+            		id6.checked = false;
+                    counterrow = 5;
+                    demo.innerHTML = counterrow;
+            } else {
+            		id1.checked = false;
+            		id2.checked = false;
+            		id3.checked = false;
+            		id4.checked = false;
+            		id5.checked = false;
+            		id6.checked = false;
+                    counterrow = 0;
+                    demo.innerHTML = counterrow;
+            }
+}
+
+function checkboxrow6behavior(id1,id2,id3,id4,id5,id6) {
+			if (id6.checked == true) {
+            		id1.checked = true;
+            		id2.checked = true;
+            		id3.checked = true;
+            		id4.checked = true;
+            		id5.checked = true;
+            		id6.checked = true;
+                    counterrow = 6;
+                    demo.innerHTML = counterrow;
+            } else {
+            		id1.checked = false;
+            		id2.checked = false;
+            		id3.checked = false;
+            		id4.checked = false;
+            		id5.checked = false;
+            		id6.checked = false;
+                    counterrow = 0;
+                    demo.innerHTML = counterrow;
+            }
+}
+
 </script>
-
-
-This code snippet sets up a parent checkbox that controls three child checkboxes. Checking the parent checks all children, and unchecking it unchecks all children. If the child checkboxes are in a mixed state, the parent checkbox will show an indeterminate state.
