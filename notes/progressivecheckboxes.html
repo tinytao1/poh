@@ -1,6 +1,186 @@
 
 
 
+// //// PROGRESSIVE CHECKBOX ROW ////
+
+<!doctype html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=2.0" />
+
+</head>
+<html>
+
+<body>
+<input type="checkbox" id="a1" />
+<input type="checkbox" id="a2" />
+<input type="checkbox" id="a3" />
+<input type="checkbox" id="a4" />
+<input type="checkbox" id="a5" />
+<input type="checkbox" id="a6" />
+
+<p id="demo">0</p>
+
+<script type="text/javascript">
+const a1 = document.getElementById('a1');
+const a2 = document.getElementById('a2');
+const a3 = document.getElementById('a3');
+const a4 = document.getElementById('a4');
+const a5 = document.getElementById('a5');
+const a6 = document.getElementById('a6');
+let counter = 0;
+const demo = document.getElementById("demo");
+a1.addEventListener('change', function() {
+	checkbox1of6();
+} )
+a2.addEventListener('change', function() {
+	checkbox2of6();
+} )
+a3.addEventListener('change', function() {
+	checkbox3of6();
+})
+a4.addEventListener('change', function() {
+	checkbox4of6();
+} )
+a5.addEventListener('change', function() {
+	checkbox5of6();
+} )
+a6.addEventListener('change', function() {
+	checkbox6of6();
+} )
+
+
+
+function checkbox1of6(id1,id2,id3,id4,id5,id6) {
+	if (id1.checked == true) {
+		counter = 1;
+		demo.innerHTML = counter;
+	} else if (id1.checked == false && id2.checked == true) {
+		counter=1;
+		a1.checked= true;
+		a2.checked = false;
+		a3.checked = false;
+		a4.checked = false;
+		a5.checked = false;
+		a6.checked = false;
+		demo.innerHTML = counter;
+	} else {
+		counter=0;
+		demo.innerHTML = counter;
+	}
+}
+
+function checkbox2of6() {
+	if (a2.checked == true) {
+		counter=2;
+		a1.checked = true;
+		demo.innerHTML = counter;
+	} else if (a2.checked == false && a3.checked == true ) {
+		counter=2;
+		a2.checked=true;
+		a3.checked = false;
+		a4.checked = false;
+		a5.checked = false;
+		a6.checked = false;
+		demo.innerHTML = counter;
+	} else {
+		counter = 0;
+		a1.checked = false;
+		demo.innerHTML = counter;
+	}
+}
+
+function checkbox3of6() {
+	if (a3.checked == true) {
+		counter=3;
+		a1.checked = true;
+		a2.checked = true; 
+		demo.innerHTML = counter;
+	} else if (a3.checked == false && a4.checked == true ) {
+		counter=3;
+		a3.checked=true;
+		a4.checked = false;
+		a5.checked = false;
+		a6.checked = false;
+		demo.innerHTML = counter;
+	} else {
+		counter=0;
+		a1.checked = false;
+		a2.checked = false; 
+		demo.innerHTML = counter;
+	}
+}
+function checkbox4of6() {
+	if (a4.checked == true) {
+		counter=4;
+		a1.checked = true;
+		a2.checked = true;
+		a3.checked = true;
+		demo.innerHTML = counter;
+	} else if (a4.checked == false && a5.checked == true ) {
+		counter=4;
+		a4.checked = true;
+		a5.checked = false;
+		a6.checked = false;
+		demo.innerHTML = counter;
+	} else {
+		counter = 0;
+		a1.checked = false;
+		a2.checked = false;
+		a3.checked = false;
+		demo.innerHTML = counter;
+	}
+}
+function checkbox5of6() {
+	if (a5.checked == true) {
+		counter=5;
+		a1.checked = true;
+		a2.checked = true;
+		a3.checked = true;
+		a4.checked = true;
+		demo.innerHTML = counter;
+	} else if (a5.checked == false && a6.checked == true ) {
+		counter=5;
+		a5.checked = true;
+		a6.checked = false;
+		demo.innerHTML = counter;
+	} else {
+    counter = 0;
+		a1.checked = false;
+		a2.checked = false;
+		a3.checked = false;
+		a4.checked = false;
+		demo.innerHTML = counter;
+	}
+}
+function checkbox6of6() {
+	if (a6.checked == true) {
+		counter=6;
+		a1.checked = true;
+		a2.checked = true;
+		a3.checked = true;
+		a4.checked = true;
+		a5.checked = true;
+		demo.innerHTML = counter;
+	} else {
+		counter = 0;
+		a1.checked = false;
+		a2.checked = false;
+		a3.checked = false;
+		a4.checked = false;
+		a5.checked = false;
+		demo.innerHTML = counter;
+	}
+}
+
+
+</script>
+</body>
+</html>
+
+
+
+
+
 // //// UNCHECK ANY UNCHECKS ALL //////
 <input type='checkbox' id='a1' >
 <input type='checkbox' id='a2' >
