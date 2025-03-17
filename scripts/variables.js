@@ -4,16 +4,17 @@
 
 
 
-let acounter = 0;
-let bcounter = 0;
-let ccounter = 0;
-let dcounter = 0;
-let ecounter = 0;
-let fcounter = 0;
-let gcounter = 0;
-let hcounter = 0;
-let icounter = 0;
-let jcounter = 0;
+let counterrowa = 0;
+let counterrowb = 0;
+let counterrowc = 0;
+let counterrowd = 0;
+let counterrowe = 0;
+let counterrowf = 0;
+let counterrowg = 0;
+let counterrowh = 0;
+let counterrowi = 0;
+let counterrowj = 0;
+let counterproducetotal = 0;
 
 // Buttons UNCHECK All, top & bottom
 const uncheckalltop = document.getElementById('uncheckalltop');
