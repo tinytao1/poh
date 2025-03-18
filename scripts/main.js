@@ -10,8 +10,8 @@ let CTS = '11:00 AM';
 document.getElementById('committed')
 .innerHTML = `committed: ${CDS}<br />${CTS}.`;
 
-uncheckalltop.addEventListener('click', uncheckall);
-uncheckallbtm.addEventListener('click', uncheckall);
+uncheckalltop.addEventListener('click', uncheckallloop);
+uncheckallbtm.addEventListener('click', uncheckallloop);
 
 a1.addEventListener('change', function() {
 	if (a1.checked == true) {
