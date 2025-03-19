@@ -2,8 +2,7 @@
 
 
 
-
-
+//   /////////////////// variable 'acounter' appears is being automatically declared for use by the browser ////////
 let CDS = 'Wednesday, 19 March, 2025';
 let CTS = '11:30 AM';
 
