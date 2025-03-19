@@ -124,6 +124,10 @@ function checkbox6of6(id1,id2,id3,id4,id5,id6,counterrownumber) {
 function uncheckallloop() {
 	for (var i = 0; i < allcheckboxesarray.length; i++) {
 		allcheckboxesarray[i].checked = false;
+		if (i == allcheckboxesarray.length - 1) {
+			acounter = 0;
+			counterrowael.innerHTML = acounter;
+		}
 	}
 }
 
