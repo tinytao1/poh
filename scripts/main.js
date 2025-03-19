@@ -4,8 +4,8 @@
 
 
 
-let CDS = '3/17/2025';
-let CTS = '7:17 PM - Tuesday';
+let CDS = 'Wednesday, 19 March, 2025';
+let CTS = '11:30 AM';
 
 document.getElementById('committed')
 .innerHTML = `committed: ${CDS}<br />${CTS}.`;
