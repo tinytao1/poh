@@ -1,5 +1,6 @@
 
 
+
 let counterrowa = 0;
 let counterrowb = 0;
 let counterrowc = 0;
@@ -10,7 +11,10 @@ let counterrowg = 0;
 let counterrowh = 0;
 let counterrowi = 0;
 let counterrowj = 0;
+
+
 let counterproducetotal = 0;
+const counterproducetotalel = document.getElementById('counterproducetotalel');
 
 // Buttons UNCHECK All, top & bottom
 const uncheckalltop = document.getElementById('uncheckalltop');
