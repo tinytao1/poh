@@ -50,125 +50,125 @@ a6.addEventListener('change', function() {
 
 
 
-function checkbox1of6(id1,id2,id3,id4,id5,id6) {
+function checkbox1of6(id1,id2,id3,id4,id5,id6,counterrow,counterrowel) {
 	if (id1.checked == true) {
-		counter = 1;
-		demo.innerHTML = counter;
+		counterrow = 1;
+		counterrowel.innerHTML = counterrow;
 	} else if (id1.checked == false && id2.checked == true) {
-		counter=1;
+		counterrow=1;
 		a1.checked= true;
 		a2.checked = false;
 		a3.checked = false;
 		a4.checked = false;
 		a5.checked = false;
 		a6.checked = false;
-		demo.innerHTML = counter;
+		counterrowel.innerHTML = counterrow;
 	} else {
 		counter=0;
-		demo.innerHTML = counter;
+		counterrowel.innerHTML = counterrow;
 	}
 }
 
 function checkbox2of6() {
 	if (a2.checked == true) {
-		counter=2;
+		counterrow=2;
 		a1.checked = true;
-		demo.innerHTML = counter;
+		counterrowel.innerHTML = counterrow;
 	} else if (a2.checked == false && a3.checked == true ) {
-		counter=2;
+		counterrow=2;
 		a2.checked=true;
 		a3.checked = false;
 		a4.checked = false;
 		a5.checked = false;
 		a6.checked = false;
-		demo.innerHTML = counter;
+		counterrowel.innerHTML = counterrow;
 	} else {
-		counter = 0;
+		counterrow = 0;
 		a1.checked = false;
-		demo.innerHTML = counter;
+		counterrowel.innerHTML = counterrow;
 	}
 }
 
 function checkbox3of6() {
 	if (a3.checked == true) {
-		counter=3;
+		counterrow=3;
 		a1.checked = true;
 		a2.checked = true; 
-		demo.innerHTML = counter;
+		counterrowel.innerHTML = counterrow;
 	} else if (a3.checked == false && a4.checked == true ) {
-		counter=3;
+		counterrow=3;
 		a3.checked=true;
 		a4.checked = false;
 		a5.checked = false;
 		a6.checked = false;
-		demo.innerHTML = counter;
+		counterrowel.innerHTML = counterrow;
 	} else {
-		counter=0;
+		counterrow=0;
 		a1.checked = false;
 		a2.checked = false; 
-		demo.innerHTML = counter;
+		counterrowel.innerHTML = counterrow;
 	}
 }
 function checkbox4of6() {
 	if (a4.checked == true) {
-		counter=4;
+		counterrow=4;
 		a1.checked = true;
 		a2.checked = true;
 		a3.checked = true;
-		demo.innerHTML = counter;
+		counterrowel.innerHTML = counterrow;
 	} else if (a4.checked == false && a5.checked == true ) {
-		counter=4;
+		counterrow=4;
 		a4.checked = true;
 		a5.checked = false;
 		a6.checked = false;
-		demo.innerHTML = counter;
+		counterrowel.innerHTML = counterrow;
 	} else {
-		counter = 0;
+		counterrow = 0;
 		a1.checked = false;
 		a2.checked = false;
 		a3.checked = false;
-		demo.innerHTML = counter;
+		counterrowel.innerHTML = counterrow;
 	}
 }
 function checkbox5of6() {
 	if (a5.checked == true) {
-		counter=5;
+		counterrow=5;
 		a1.checked = true;
 		a2.checked = true;
 		a3.checked = true;
 		a4.checked = true;
-		demo.innerHTML = counter;
+		counterrowel.innerHTML = counterrow;
 	} else if (a5.checked == false && a6.checked == true ) {
-		counter=5;
+		counterrow=5;
 		a5.checked = true;
 		a6.checked = false;
-		demo.innerHTML = counter;
+		counterrowel.innerHTML = counterrow;
 	} else {
-    counter = 0;
+    		counterrow = 0;
 		a1.checked = false;
 		a2.checked = false;
 		a3.checked = false;
 		a4.checked = false;
-		demo.innerHTML = counter;
+		counterrowel.innerHTML = counterrow;
 	}
 }
 function checkbox6of6() {
 	if (a6.checked == true) {
-		counter=6;
+		counterrow=6;
 		a1.checked = true;
 		a2.checked = true;
 		a3.checked = true;
 		a4.checked = true;
 		a5.checked = true;
-		demo.innerHTML = counter;
+		counterrowel.innerHTML = counterrow;
 	} else {
-		counter = 0;
+		counterrow = 0;
 		a1.checked = false;
 		a2.checked = false;
 		a3.checked = false;
 		a4.checked = false;
 		a5.checked = false;
-		demo.innerHTML = counter;
+		counterrowel.innerHTML = counterrow;
 	}
 }
 
@@ -181,7 +181,7 @@ function checkbox6of6() {
 
 
 
-// //// UNCHECK ANY UNCHECKS ALL //////
+// //// BEHAVIOR: UNCHECK ANY UNCHECKS ALL //////
 <input type='checkbox' id='a1' >
 <input type='checkbox' id='a2' >
 <input type='checkbox' id='a3' >
