@@ -18,9 +18,9 @@
 <input type="checkbox" id="a5" />
 <input type="checkbox" id="a6" />
 
-<p id="counterrow">0</p>
-<p id="counterproducetotal" style='background-color:black;
-		color:white; display:inline-block; padding-left:3px; padding-right:3px; border-radius:2px;'> 23 </p>
+<p id="counterrowel">0</p>
+<p id="counterproducetotalel" style='background-color:black;
+		color:white; display:inline-block; padding-left:3px; padding-right:3px; border-radius:2px;'> 19 </p>
 
 <script type="text/javascript">
 const a1 = document.getElementById('a1');
@@ -30,157 +30,160 @@ const a4 = document.getElementById('a4');
 const a5 = document.getElementById('a5');
 const a6 = document.getElementById('a6');
 
-
+const rowarray = [a1,a2,a3,a4,a5,a6];
 
 let counterrow = 0;
-const counterrowel = document.getElementById("counterrow");
+const counterrowel = document.getElementById("counterrowel");
 
 let counterproducetotal = counterrow;
-const counterproducetotal = document.getElementById("counterproducetotal");
+const counterproducetotalel = document.getElementById("counterproducetotalel");
 
 a1.addEventListener('change', function() {
-	checkbox1of6();
+	checkbox1of6(...rowarray);
 } )
 a2.addEventListener('change', function() {
-	checkbox2of6();
+	checkbox2of6(...rowarray);
 } )
 a3.addEventListener('change', function() {
-	checkbox3of6();
+	checkbox3of6(...rowarray);
 })
 a4.addEventListener('change', function() {
-	checkbox4of6();
+	checkbox4of6(...rowarray);
 } )
 a5.addEventListener('change', function() {
-	checkbox5of6();
+	checkbox5of6(...rowarray);
 } )
 a6.addEventListener('change', function() {
-	checkbox6of6();
+	checkbox6of6(...rowarray);
 } )
 
 // id1,id2,id3,id4,id5,id6,counterrow,counterrowel
 
-function checkbox1of6() {
-	if (a1.checked == true) {
-		counterrow = 1;
+
+function checkbox1of6(id1,id2,id3,id4,id5,id6) {
+        if (id1.checked == true) {
+            counterrow = 1;
+            counterrowel.innerHTML = counterrow;
+        } else if (id1.checked == false && id2.checked == true) {
+            counterrow = 1;
+            id1.checked= true;
+            id2.checked = false;
+            id3.checked = false;
+            id4.checked = false;
+            id5.checked = false;
+            id6.checked = false;
+            counterrowel.innerHTML = counterrow;
+        } else {
+            counterrow=0;
+            counterrowel.innerHTML = counterrow;
+        }
+    }
+    
+    function checkbox2of6(id1,id2,id3,id4,id5,id6) {
+	if (id2.checked == true) {
+		counterrow=2;
+		id1.checked = true;
 		counterrowel.innerHTML = counterrow;
-	} else if (a1.checked == false && a2.checked == true) {
-		counterrow = 1;
-		a1.checked= true;
-		a2.checked = false;
-		a3.checked = false;
-		a4.checked = false;
-		a5.checked = false;
-		a6.checked = false;
+	} else if (id2.checked == false && id3.checked == true ) {
+		counterrow=2;
+		id2.checked=true;
+		id3.checked = false;
+		id4.checked = false;
+		id5.checked = false;
+		id6.checked = false;
 		counterrowel.innerHTML = counterrow;
 	} else {
-		counterrow=0;
+		counterrow = 0;
+		id1.checked = false;
 		counterrowel.innerHTML = counterrow;
 	}
 }
 
-function checkbox2of6() {
-	if (a2.checked == true) {
-		counterrow=2;
-		a1.checked = true;
+function checkbox3of6(id1,id2,id3,id4,id5,id6) {
+	if (id3.checked == true) {
+		counterrow=3;
+		id1.checked = true;
+		id2.checked = true; 
 		counterrowel.innerHTML = counterrow;
-	} else if (a2.checked == false && a3.checked == true ) {
-		counterrow=2;
-		a2.checked=true;
-		a3.checked = false;
-		a4.checked = false;
-		a5.checked = false;
-		a6.checked = false;
+	} else if (id3.checked == false && id4.checked == true ) {
+		counterrow=3;
+		id3.checked=true;
+		id4.checked = false;
+		id5.checked = false;
+		id6.checked = false;
 		counterrowel.innerHTML = counterrow;
 	} else {
-		counterrow = 0;
-		a1.checked = false;
+		counterrow=0;
+		id1.checked = false;
+		id2.checked = false; 
 		counterrowel.innerHTML = counterrow;
 	}
 }
 
-function checkbox3of6() {
-	if (a3.checked == true) {
-		counterrow=3;
-		a1.checked = true;
-		a2.checked = true; 
-		counterrowel.innerHTML = counterrow;
-	} else if (a3.checked == false && a4.checked == true ) {
-		counterrow=3;
-		a3.checked=true;
-		a4.checked = false;
-		a5.checked = false;
-		a6.checked = false;
-		counterrowel.innerHTML = counterrow;
-	} else {
-		counterrow=0;
-		a1.checked = false;
-		a2.checked = false; 
-		counterrowel.innerHTML = counterrow;
-	}
-}
-function checkbox4of6() {
-	if (a4.checked == true) {
+function checkbox4of6(id1,id2,id3,id4,id5,id6) {
+	if (id4.checked == true) {
 		counterrow=4;
-		a1.checked = true;
-		a2.checked = true;
-		a3.checked = true;
+		id1.checked = true;
+		id2.checked = true;
+		id3.checked = true;
 		counterrowel.innerHTML = counterrow;
-	} else if (a4.checked == false && a5.checked == true ) {
+	} else if (id4.checked == false && id5.checked == true ) {
 		counterrow=4;
-		a4.checked = true;
-		a5.checked = false;
-		a6.checked = false;
+		id4.checked = true;
+		id5.checked = false;
+		id6.checked = false;
 		counterrowel.innerHTML = counterrow;
 	} else {
 		counterrow = 0;
-		a1.checked = false;
-		a2.checked = false;
-		a3.checked = false;
+		id1.checked = false;
+		id2.checked = false;
+		id3.checked = false;
 		counterrowel.innerHTML = counterrow;
 	}
 }
-function checkbox5of6() {
-	if (a5.checked == true) {
+
+function checkbox5of6(id1,id2,id3,id4,id5,id6) {
+	if (id5.checked == true) {
 		counterrow=5;
-		a1.checked = true;
-		a2.checked = true;
-		a3.checked = true;
-		a4.checked = true;
+		id1.checked = true;
+		id2.checked = true;
+		id3.checked = true;
+		id4.checked = true;
 		counterrowel.innerHTML = counterrow;
-	} else if (a5.checked == false && a6.checked == true ) {
+	} else if (id5.checked == false && id6.checked == true ) {
 		counterrow=5;
-		a5.checked = true;
-		a6.checked = false;
+		id5.checked = true;
+		id6.checked = false;
 		counterrowel.innerHTML = counterrow;
 	} else {
     		counterrow = 0;
-		a1.checked = false;
-		a2.checked = false;
-		a3.checked = false;
-		a4.checked = false;
-		counterrowel.innerHTML = counterrow;
-	}
-}
-function checkbox6of6() {
-	if (a6.checked == true) {
-		counterrow=6;
-		a1.checked = true;
-		a2.checked = true;
-		a3.checked = true;
-		a4.checked = true;
-		a5.checked = true;
-		counterrowel.innerHTML = counterrow;
-	} else {
-		counterrow = 0;
-		a1.checked = false;
-		a2.checked = false;
-		a3.checked = false;
-		a4.checked = false;
-		a5.checked = false;
+		id1.checked = false;
+		id2.checked = false;
+		id3.checked = false;
+		id4.checked = false;
 		counterrowel.innerHTML = counterrow;
 	}
 }
 
+function checkbox6of6(id1,id2,id3,id4,id5,id6) {
+	if (id6.checked == true) {
+		counterrow=6;
+		id1.checked = true;
+		id2.checked = true;
+		id3.checked = true;
+		id4.checked = true;
+		id5.checked = true;
+		counterrowel.innerHTML = counterrow;
+	} else {
+		counterrow = 0;
+		id1.checked = false;
+		id2.checked = false;
+		id3.checked = false;
+		id4.checked = false;
+		id5.checked = false;
+		counterrowel.innerHTML = counterrow;
+	}
+}
 
 </script>
 </body>
@@ -366,7 +369,7 @@ function checkboxrow6behavior(id1,id2,id3,id4,id5,id6) {
 
 </script>
 
-// //// SLIDE-LIKE
+// //// SLIDE-LIKE ////////////////////////////////////////////////////////////////////
 <!doctype html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=2.0" />
