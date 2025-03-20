@@ -1,5 +1,5 @@
 a1.addEventListener('change', function() {
-	checkbox1of6(...rowaarray,counterrowa,counterrowael);
+	checkbox1of6(a1,a2,a3,a4,a5,a6,counterrowa,counterrowael);
 } )
 a2.addEventListener('change', function() {
 	checkbox2of6(...rowaarray,counterrowa,counterrowael);
