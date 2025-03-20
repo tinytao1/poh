@@ -112,7 +112,7 @@ const j4 = document.getElementById('j4');
 const j5 = document.getElementById('j5');
 const j6 = document.getElementById('j6');
 
-const rowaarray = [a1, a2, a3, a4, a5, a6];
+const rowaarray = [a1, a2, a3, a4, a5, a6, counterrowa, counterrowael];
 const rowbarray = [b1, b2, b3, b4, b5, b6];
 const rowcarray = [c1, c2, c3, c4, c5, c6];
 const rowdarray = [d1, d2, d3, d4, d5, d6];
