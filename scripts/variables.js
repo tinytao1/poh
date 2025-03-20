@@ -24,7 +24,17 @@ const counterrowiel = document.getElementById('counterrowiel');
 const counterrowjel = document.getElementById('counterrowjel');
 
 
-let counterproducetotal = 0;
+let counterproducetotal = counterrowa
+                        +counterrowb
+                        +counterrowc
+                        +counterrowd
+                        +counterrowe
+                        +counterrowf
+                        +counterrowg
+                        +counterrowh
+                        +counterrowi
+                        +counterrowj;
+                        
 const counterproducetotalel = document.getElementById('counterproducetotalel');
 
 // Buttons UNCHECK All, top & bottom
