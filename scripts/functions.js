@@ -1,20 +1,23 @@
 
-function checkbox1of6(id1,id2,id3,id4,id5,id6,counterrownumber) {
+function checkbox1of6(id1,id2,id3,id4,id5,id6,counterrow,counterrowel) {
 	if (id1.checked == true) {
-		counterrownumber = 1;
-		demo.innerHTML = counterrownumber;
+		counterrow = 1;
+		counterrowel.innerHTML = counterrow;
+		counterproducetotalel = counterproducetotal;
 	} else if (id1.checked == false && id2.checked == true) {
-		counterrownumber=1;
+		counterrow=1;
 		id3.checked = false;
 		id1.checked= true;
 		id4.checked = false;
 		id2.checked = false;
 		id5.checked = false;
 		id6.checked = false;
-		demo.innerHTML = counterrownumber;
+		counterrowel.innerHTML = counterrow;
+		counterproducetotalel = counterproducetotal;
 	} else {
-		counterrownumber=0;
-		demo.innerHTML = counterrownumber;
+		counterrow=0;
+		counterrowel.innerHTML = counterrow;
+		counterproducetotalel = counterproducetotal;
 	}
 }
 
