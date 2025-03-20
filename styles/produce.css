@@ -5,4 +5,6 @@ input[type] {
 #a6, #b6, #c6, #d6, #e6, #f6, #g6, #h6, #i6, #j6 {
       margin-right: 5px;
   }
-
+#btns-top-row-div {
+    padding-bottom:10px;
+}
