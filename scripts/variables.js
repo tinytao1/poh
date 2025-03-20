@@ -12,6 +12,17 @@ let counterrowh = 0;
 let counterrowi = 0;
 let counterrowj = 0;
 
+const counterrowael = document.getElementById('counterrowael');
+const counterrowbel = document.getElementById('counterrowbel');
+const counterrowcel = document.getElementById('counterrowcel');
+const counterrowdel = document.getElementById('counterrowdel');
+const counterroweel = document.getElementById('counterroweel');
+const counterrowfel = document.getElementById('counterrowfel');
+const counterrowgel = document.getElementById('counterrowgel');
+const counterrowhel = document.getElementById('counterrowhel');
+const counterrowiel = document.getElementById('counterrowiel');
+const counterrowjel = document.getElementById('counterrowjel');
+
 
 let counterproducetotal = 0;
 const counterproducetotalel = document.getElementById('counterproducetotalel');
