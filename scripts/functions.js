@@ -26,8 +26,8 @@ function checkbox1of6(id1,id2,id3,id4,id5,id6,counterrow,counterrowel) {
 		counterrow=0;
 		counterrowel.innerHTML = counterrow;
 	}
-	// addrows();
-	counterproducetotalel.innerHTML = addrows();
+	counterproducetotal = addrows();
+	counterproducetotalel.innerHTML = counterproducetotal;
 }
 
 function checkbox2of6(id1,id2,id3,id4,id5,id6,counterrow,counterrowel) {
