@@ -2,7 +2,7 @@
 
 
 function addrows() {
-       return counterrowa+counterrowb+counterrowc+counterrowd+counterrowe+counterrowf+counterrowg+counterrowh+counterrowi+counterrowj;
+       counterproducetotal = counterrowa+counterrowb+counterrowc+counterrowd+counterrowe+counterrowf+counterrowg+counterrowh+counterrowi+counterrowj;
 							//counterproducetotalel.innerHTML = counterproducetotal;
 }
 function checkbox1of6(id1,id2,id3,id4,id5,id6,counterrow,counterrowel) {
@@ -26,7 +26,7 @@ function checkbox1of6(id1,id2,id3,id4,id5,id6,counterrow,counterrowel) {
 		counterrow=0;
 		counterrowel.innerHTML = counterrow;
 	}
-	counterproducetotal = addrows();
+	addrows();
 	counterproducetotalel.innerHTML = counterproducetotal;
 }
 
