@@ -2,12 +2,12 @@
 function checkbox1of6(id1,id2,id3,id4,id5,id6,counterrow,counterrowel) {
 	if (id1.checked == true) {
 		counterrow = 1;
-		counterproducetotal = addrows();
+
 		counterrowel.innerHTML = counterrow;
-		counterproducetotalel.innerHTML = counterproducetotal;
+
 	} else if (id1.checked == false && id2.checked == true) {
 		counterrow=1;
-		counterproducetotal = addrows();
+
 		id3.checked = false;
 		id1.checked= true;
 		id4.checked = false;
@@ -15,13 +15,13 @@ function checkbox1of6(id1,id2,id3,id4,id5,id6,counterrow,counterrowel) {
 		id5.checked = false;
 		id6.checked = false;
 		counterrowel.innerHTML = counterrow;
-		counterproducetotalel.innerHTML = counterproducetotal;
+
 	} else {
 		counterrow=0;
-		counterproducetotal = addrows();
 		counterrowel.innerHTML = counterrow;
-		counterproducetotalel.innerHTML = counterproducetotal;
 	}
+	counterproducetotal = addrows();
+	counterproducetotalel.innerHTML = counterproducetotal;
 }
 
 function checkbox2of6(id1,id2,id3,id4,id5,id6,counterrow,counterrowel) {
