@@ -24,16 +24,7 @@ const counterrowiel = document.getElementById('counterrowiel');
 const counterrowjel = document.getElementById('counterrowjel');
 
 
-let counterproducetotal = counterrowa
-                        +counterrowb
-                        +counterrowc
-                        +counterrowd
-                        +counterrowe
-                        +counterrowf
-                        +counterrowg
-                        +counterrowh
-                        +counterrowi
-                        +counterrowj;
+let counterproducetotal = 0;
                         
 const counterproducetotalel = document.getElementById('counterproducetotalel');
 
