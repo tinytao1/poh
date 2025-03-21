@@ -1,26 +1,34 @@
 a1.addEventListener('change', function() {
 	checkbox1of6(...rowaarray);
+	addrows();
 } )
 a2.addEventListener('change', function() {
 	checkbox2of6(...rowaarray);
+	addrows();
 } )
 a3.addEventListener('change', function() {
 	checkbox3of6(...rowaarray);
+	addrows();
 })
 a4.addEventListener('change', function() {
 	checkbox4of6(...rowaarray);
+	addrows();
 } )
 a5.addEventListener('change', function() {
 	checkbox5of6(...rowaarray);
+	addrows();
 } )
 a6.addEventListener('change', function() {
 	checkbox6of6(...rowaarray);
+	addrows();
 } )
 b1.addEventListener('change', function() {
 	checkbox1of6(...rowbarray);
+	addrows();
 } )
 b2.addEventListener('change', function() {
 	checkbox2of6(...rowbarray);
+	addrows();
 } )
 b3.addEventListener('change', function() {
 	checkbox3of6(...rowbarray);
