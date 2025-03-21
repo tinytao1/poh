@@ -3,7 +3,7 @@
 
 function addrows() {
        counterproducetotal= counterrowa+counterrowb+counterrowc+counterrowd+counterrowe+counterrowf+counterrowg+counterrowh+counterrowi+counterrowj;
-							return counterproducetotal;
+							counterproducetotalel.innerHTML = counterproducetotal;
 }
 function checkbox1of6(id1,id2,id3,id4,id5,id6,counterrow,counterrowel) {
 	if (id1.checked == true) {
@@ -26,8 +26,7 @@ function checkbox1of6(id1,id2,id3,id4,id5,id6,counterrow,counterrowel) {
 		counterrow=0;
 		counterrowel.innerHTML = counterrow;
 	}
-	counterproducetotal = addrows();
-	counterproducetotalel.innerHTML = counterproducetotal;
+	addrows();
 }
 
 function checkbox2of6(id1,id2,id3,id4,id5,id6,counterrow,counterrowel) {
@@ -53,8 +52,7 @@ function checkbox2of6(id1,id2,id3,id4,id5,id6,counterrow,counterrowel) {
 		id1.checked = false;
 		counterrowel.innerHTML = counterrow;
 	}
-	counterproducetotal = addrows();
-	counterproducetotalel.innerHTML = counterproducetotal;
+	addrows();
 }
 
 function checkbox3of6(id1,id2,id3,id4,id5,id6,counterrow,counterrowel) {
@@ -81,8 +79,7 @@ function checkbox3of6(id1,id2,id3,id4,id5,id6,counterrow,counterrowel) {
 		id2.checked = false; 
 		counterrowel.innerHTML = counterrow;
 	}
-	counterproducetotal = addrows();
-	counterproducetotalel.innerHTML = counterproducetotal;
+	addrows();
 }
 function checkbox4of6(id1,id2,id3,id4,id5,id6,counterrow,counterrowel) {
 	if (id4.checked == true) {
@@ -109,8 +106,8 @@ function checkbox4of6(id1,id2,id3,id4,id5,id6,counterrow,counterrowel) {
 		id3.checked = false;
 		counterrowel.innerHTML = counterrow;
 	}
-	counterproducetotal = addrows();
-	counterproducetotalel.innerHTML = counterproducetotal;
+	addrows();
+
 }
 function checkbox5of6(id1,id2,id3,id4,id5,id6,counterrow,counterrowel) {
 	if (id5.checked == true) {
@@ -138,8 +135,8 @@ function checkbox5of6(id1,id2,id3,id4,id5,id6,counterrow,counterrowel) {
 		id4.checked = false;
 		counterrowel.innerHTML = counterrow;
 	}
-	counterproducetotal = addrows();
-	counterproducetotalel.innerHTML = counterproducetotal;
+	addrows();
+
 }
 function checkbox6of6(id1,id2,id3,id4,id5,id6,counterrow,counterrowel) {
 	if (id6.checked == true) {
@@ -162,8 +159,8 @@ function checkbox6of6(id1,id2,id3,id4,id5,id6,counterrow,counterrowel) {
 		id5.checked = false;
 		counterrowel.innerHTML = counterrow;
 	}
- counterproducetotal = addrows();
-	counterproducetotalel.innerHTML = counterproducetotal;
+	addrows();
+
 }
 
 function uncheckallloop() {
