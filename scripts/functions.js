@@ -158,6 +158,7 @@ function addrows() {
       counterproducetotal= counterrowa+counterrowb+counterrowc
 						  +counterrowd+counterrowe+counterrowf+counterrowg
 								+counterrowh+counterrowi+counterrowj;
+								return counterproducetotal;
 }
 
 function uncheckallloop() {
