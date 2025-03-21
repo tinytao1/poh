@@ -2,8 +2,8 @@
 
 
 function addrows() {
-       //counterproducetotal= counterrowa+counterrowb+counterrowc+counterrowd+counterrowe+counterrowf+counterrowg+counterrowh+counterrowi+counterrowj;
-							return 5; //counterproducetotal;
+       counterproducetotal= counterrowa+counterrowb+counterrowc+counterrowd+counterrowe+counterrowf+counterrowg+counterrowh+counterrowi+counterrowj;
+							return counterproducetotal;
 }
 function checkbox1of6(id1,id2,id3,id4,id5,id6,counterrow,counterrowel) {
 	if (id1.checked == true) {
@@ -34,131 +34,136 @@ function checkbox2of6(id1,id2,id3,id4,id5,id6,counterrow,counterrowel) {
 	if (id2.checked == true) {
 		id1.checked = true;
 		counterrow=2;
-		counterproducetotal = addrows();
+
 		counterrowel.innerHTML = counterrow;
-		counterproducetotalel.innerHTML = counterproducetotal;
+
 	} else if (id2.checked == false && id3.checked == true ) {
 		counterrow=2;
-		counterproducetotal = addrows();
+
 		id2.checked=true;
 		id3.checked = false;
 		id4.checked = false;
 		id5.checked = false;
 		id6.checked = false;
 		counterrowel.innerHTML = counterrow;
-		counterproducetotalel.innerHTML = counterproducetotal;
+
 	} else {
 		counterrow = 0;
-		counterproducetotal = addrows();
+
 		id1.checked = false;
 		counterrowel.innerHTML = counterrow;
-		counterproducetotalel.innerHTML = counterproducetotal;
 	}
+	counterproducetotal = addrows();
+	counterproducetotalel.innerHTML = counterproducetotal;
 }
 
 function checkbox3of6(id1,id2,id3,id4,id5,id6,counterrow,counterrowel) {
 	if (id3.checked == true) {
 		counterrow=3;
-		counterproducetotal = addrows();
+
 		id1.checked = true;
 		id2.checked = true; 
 		counterrowel.innerHTML = counterrow;
-		counterproducetotalel.innerHTML = counterproducetotal;
+
 	} else if (id3.checked == false && id4.checked == true ) {
 		counterrow=3;
-		counterproducetotal = addrows();
+
 		id3.checked=true;
 		id4.checked = false;
 		id5.checked = false;
 		id6.checked = false;
 		counterrowel.innerHTML = counterrow;
-		counterproducetotalel.innerHTML = counterproducetotal;
+
 	} else {
 		counterrow=0;
-		counterproducetotal = addrows();
+
 		id1.checked = false;
 		id2.checked = false; 
 		counterrowel.innerHTML = counterrow;
-		counterproducetotalel.innerHTML = counterproducetotal;
 	}
+	counterproducetotal = addrows();
+	counterproducetotalel.innerHTML = counterproducetotal;
 }
 function checkbox4of6(id1,id2,id3,id4,id5,id6,counterrow,counterrowel) {
 	if (id4.checked == true) {
 		counterrow=4;
-		counterproducetotal = addrows();
+
 		id1.checked = true;
 		id2.checked = true;
 		id3.checked = true;
 		counterrowel.innerHTML = counterrow;
-		counterproducetotalel.innerHTML = counterproducetotal;
+
 	} else if (id4.checked == false && id5.checked == true ) {
 		counterrow=4;
-		counterproducetotal = addrows();
+
 		id4.checked = true;
 		id5.checked = false;
 		id6.checked = false;
 		counterrowel.innerHTML = counterrow;
-		counterproducetotalel.innerHTML = counterproducetotal;
+
 	} else {
 		counterrow = 0;
-		counterproducetotal = addrows();
+
 		id1.checked = false;
 		id2.checked = false;
 		id3.checked = false;
 		counterrowel.innerHTML = counterrow;
-		counterproducetotalel.innerHTML = counterproducetotal;
 	}
+	counterproducetotal = addrows();
+	counterproducetotalel.innerHTML = counterproducetotal;
 }
 function checkbox5of6(id1,id2,id3,id4,id5,id6,counterrow,counterrowel) {
 	if (id5.checked == true) {
 		counterrow=5;
-		counterproducetotal = addrows();
+
 		id1.checked = true;
 		id2.checked = true;
 		id3.checked = true;
 		id4.checked = true;
 		counterrowel.innerHTML = counterrow;
-		counterproducetotalel.innerHTML = counterproducetotal;
+
 	} else if (id5.checked == false && id6.checked == true ) {
 		counterrow=5;
-		counterproducetotal = addrows();
+
 		id5.checked = true;
 		id6.checked = false;
 		counterrowel.innerHTML = counterrow;
-		counterproducetotalel.innerHTML = counterproducetotal;
+
 	} else {
   counterrow = 0;
-		counterproducetotal = addrows();
+
 		id1.checked = false;
 		id2.checked = false;
 		id3.checked = false;
 		id4.checked = false;
 		counterrowel.innerHTML = counterrow;
-		counterproducetotalel.innerHTML = counterproducetotal;
 	}
+	counterproducetotal = addrows();
+	counterproducetotalel.innerHTML = counterproducetotal;
 }
 function checkbox6of6(id1,id2,id3,id4,id5,id6,counterrow,counterrowel) {
 	if (id6.checked == true) {
 		counterrow=6;
-		counterproducetotal = addrows();
+
 		id1.checked = true;
 		id2.checked = true;
 		id3.checked = true;
 		id4.checked = true;
 		id5.checked = true;
 		counterrowel.innerHTML = counterrow;
-		counterproducetotalel.innerHTML = counterproducetotal;
+
 	} else {
 		counterrow = 0;
-		counterproducetotal = addrows();
+
 		id1.checked = false;
 		id2.checked = false;
 		id3.checked = false;
 		id4.checked = false;
 		id5.checked = false;
 		counterrowel.innerHTML = counterrow;
-		counterproducetotalel.innerHTML = counterproducetotal;
 	}
+ counterproducetotal = addrows();
+	counterproducetotalel.innerHTML = counterproducetotal;
 }
 
 function uncheckallloop() {
