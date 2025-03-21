@@ -154,6 +154,11 @@ function checkbox6of6(id1,id2,id3,id4,id5,id6,counterrow,counterrowel) {
 		counterproducetotalel.innerHTML = counterproducetotal;
 	}
 }
+function addrows() {
+      counterproducetotal= counterrowa+counterrowb+counterrowc
+						  +counterrowd+counterrowe+counterrowf+counterrowg
+								+counterrowh+counterrowi+counterrowj;
+}
 
 function uncheckallloop() {
 	for (var i = 0; i < allcheckboxesarray.length; i++) {
