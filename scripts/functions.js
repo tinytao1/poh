@@ -145,7 +145,16 @@ function uncheckallloop() {
 		if (i == allcheckboxesarray.length - 1) {
 			counterrow = 0;
 			counterrowael.innerHTML = counterrow;
-			counterproducetotalel.innerHTML = counterproducetotal;
+			counterrowbel.innerHTML = counterrow;
+			counterrowcel.innerHTML = counterrow;
+			counterrowdel.innerHTML = counterrow;
+			counterroweel.innerHTML = counterrow;
+			counterrowfel.innerHTML = counterrow;
+			counterrowgel.innerHTML = counterrow;
+			counterrowhel.innerHTML = counterrow;
+			counterrowiel.innerHTML = counterrow;
+			counterrowjel.innerHTML = counterrow;
+			counterproducetotalel.innerHTML = 99;    //counterproducetotal;
 		}
 	}
 }
