@@ -6,7 +6,6 @@ function checkbox1of6(id1,id2,id3,id4,id5,id6,counterrow,counterrowel) {
 	if (id1.checked == true) {
 		counterrow = 1;
 		counterrowel.innerHTML = counterrow;
-		return counterrow;
 	} else if (id1.checked == false && id2.checked == true) {
 		counterrow=1;
 		id3.checked = false;
@@ -72,7 +71,6 @@ function checkbox3of6(id1,id2,id3,id4,id5,id6,counterrow,counterrowel) {
 		id2.checked = false; 
 		counterrowel.innerHTML = counterrow;
 	}
-	addrows();
 }
 function checkbox4of6(id1,id2,id3,id4,id5,id6,counterrow,counterrowel) {
 	if (id4.checked == true) {
