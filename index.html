@@ -29,9 +29,12 @@
 	
 <script>
 "use strict";
+document.getElementById('totalel').addEventListener('click', function() {
+	document.getElementById('displaytotalel').innerHTML = calculatetotal();
+} );
 function calculatetotal() {
-	
-	return document.getElementById('counterrowael').innerHTML;
+	let total = counterrowael.innerHTML ;
+	return total;
 }
 	
 
