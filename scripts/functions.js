@@ -44,7 +44,6 @@ function checkbox2of6(id1,id2,id3,id4,id5,id6,counterrow,counterrowel) {
 		id1.checked = false;
 		counterrowel.innerHTML = counterrow;
 	}
-	addrows();
 }
 
 function checkbox3of6(id1,id2,id3,id4,id5,id6,counterrow,counterrowel) {
@@ -97,7 +96,6 @@ function checkbox4of6(id1,id2,id3,id4,id5,id6,counterrow,counterrowel) {
 		id3.checked = false;
 		counterrowel.innerHTML = counterrow;
 	}
-	addrows();
 
 }
 function checkbox5of6(id1,id2,id3,id4,id5,id6,counterrow,counterrowel) {
@@ -126,7 +124,6 @@ function checkbox5of6(id1,id2,id3,id4,id5,id6,counterrow,counterrowel) {
 		id4.checked = false;
 		counterrowel.innerHTML = counterrow;
 	}
-	addrows();
 
 }
 function checkbox6of6(id1,id2,id3,id4,id5,id6,counterrow,counterrowel) {
@@ -150,7 +147,6 @@ function checkbox6of6(id1,id2,id3,id4,id5,id6,counterrow,counterrowel) {
 		id5.checked = false;
 		counterrowel.innerHTML = counterrow;
 	}
-	addrows();
 
 }
 
