@@ -33,8 +33,9 @@ document.getElementById('totalel').addEventListener('click', function() {
 	document.getElementById('displaytotalel').innerHTML = calculatetotal();
 } );
 function calculatetotal() {
-	rowA=Number(counterrowael.innerHTML);
-	let total = rowA;
+	let rowA=Number(counterrowael.innerHTML);
+	let rowB=Number(counterrowbel.innerHTML);
+	let total = rowA+rowB;
 	return total;
 }
 	
