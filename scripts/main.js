@@ -14,23 +14,3 @@ uncheckallbtm.addEventListener('click', uncheckallloop);
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
