@@ -1,4 +1,4 @@
-
+"use strict";
 
 //   /////////////////// variable 'acounter' appears is being automatically declared for use by the browser ////////
 let CDS = 'Saturday, 22 March, 2025';
