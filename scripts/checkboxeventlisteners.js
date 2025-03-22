@@ -1,13 +1,17 @@
 function addrows() {
-	return 56;
+	return 01;
       // counterproducetotal = counterrowa+counterrowb+counterrowc+counterrowd+counterrowe+counterrowf+counterrowg+counterrowh+counterrowi+counterrowj;
 	//counterproducetotalel.innerHTML = counterproducetotal;
 }
 
+function exampleaddrows() {
+	return 99
+}
 document.getElementById('totalel').addEventListener('click', function() {
+	//document.getElementById('displaytotalel').innerHTML = addrows(); //good - when function "return 56;
+	document.getElementById('displaytotalel').innerHTML = exampleaddrows();
 	// let countertotalexample = addrows();
-	document.getElementById('displaytotalel').innerHTML = addrows();  //countertotalexample;
-	
+
 } )
 
 a1.addEventListener('change', function() {
