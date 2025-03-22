@@ -3,8 +3,8 @@
 
 
 //   /////////////////// variable 'acounter' appears is being automatically declared for use by the browser ////////
-let CDS = 'Friday, 21 March, 2025';
-let CTS = '5:38 PM';
+let CDS = 'Saturday, 22 March, 2025';
+let CTS = '1:11 PM';
 
 document.getElementById('committed')
 .innerHTML = `committed: ${CDS}<br />${CTS}.`;
