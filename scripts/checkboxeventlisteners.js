@@ -3,33 +3,43 @@
 
 a1.addEventListener('change', function() {
 	checkbox1of6(...rowaarray);
+	calculateproducetotal();
 } )
 a2.addEventListener('change', function() {
 	checkbox2of6(...rowaarray);
+	calculateproducetotal();
 } )
 a3.addEventListener('change', function() {
 	checkbox3of6(...rowaarray);
+	calculateproducetotal();
 })
 a4.addEventListener('change', function() {
 	checkbox4of6(...rowaarray);
+	calculateproducetotal();
 } )
 a5.addEventListener('change', function() {
 	checkbox5of6(...rowaarray);
+	calculateproducetotal();
 } )
 a6.addEventListener('change', function() {
 	checkbox6of6(...rowaarray);
+	calculateproducetotal();
 } )
 b1.addEventListener('change', function() {
 	checkbox1of6(...rowbarray);
+	calculateproducetotal();
 } )
 b2.addEventListener('change', function() {
 	checkbox2of6(...rowbarray);
+	calculateproducetotal();
 } )
 b3.addEventListener('change', function() {
 	checkbox3of6(...rowbarray);
+	calculateproducetotal();
 })
 b4.addEventListener('change', function() {
 	checkbox4of6(...rowbarray);
+	calculateproducetotal();
 } )
 b5.addEventListener('change', function() {
 	checkbox5of6(...rowbarray);
