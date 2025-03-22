@@ -166,7 +166,7 @@ function uncheckallloop() {
 			counterrowhel.innerHTML = counterrow;
 			counterrowiel.innerHTML = counterrow;
 			counterrowjel.innerHTML = counterrow;
-			counterproducetotalel.innerHTML = counterproducetotal;
+			calculateproducetotal();
 		}
 	}
 }
