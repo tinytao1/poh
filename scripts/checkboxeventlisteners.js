@@ -10,7 +10,7 @@ function exampleaddrows() {
 }
 document.getElementById('totalel').addEventListener('click', function() {
 	//document.getElementById('displaytotalel').innerHTML = addrows(); //good - when function "return 56;
-	document.getElementById('displaytotalel').innerHTML = exampleaddrows();
+	document.getElementById('displaytotalel').innerHTML = calculatetotal();
 	// let countertotalexample = addrows();
 
 } )
