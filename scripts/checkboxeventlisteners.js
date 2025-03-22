@@ -2,7 +2,7 @@
 
 
 function addrows() {
-	return 01;
+	return 1;
       // counterproducetotal = counterrowa+counterrowb+counterrowc+counterrowd+counterrowe+counterrowf+counterrowg+counterrowh+counterrowi+counterrowj;
 	//counterproducetotalel.innerHTML = counterproducetotal;
 }
