@@ -1,3 +1,6 @@
+"use strict";
+
+
 function addrows() {
 	return 01;
       // counterproducetotal = counterrowa+counterrowb+counterrowc+counterrowd+counterrowe+counterrowf+counterrowg+counterrowh+counterrowi+counterrowj;
@@ -9,9 +12,7 @@ function exampleaddrows() {
 	//counterrowa counterrowb counterrowc counterrowd counterrowe
 }
 document.getElementById('totalel').addEventListener('click', function() {
-	//document.getElementById('displaytotalel').innerHTML = addrows(); //good - when function "return 56;
 	document.getElementById('displaytotalel').innerHTML = calculatetotal();
-	// let countertotalexample = addrows();
 
 } )
 
