@@ -30,9 +30,10 @@
 <script>
 "use strict";
 document.getElementById('totalel').addEventListener('click', function() {
-	document.getElementById('displaytotalel').innerHTML = calculatetotal();
+	document.getElementById('displaytotalel').innerHTML = calculateproducetotal();
+	document.getElementById('counterproducetotalel').innerHTML = calculateproducetotal();
 } );
-function calculatetotal() {
+function calculateproducetotal() {
 	let rowA=Number(counterrowael.innerHTML);
 	let rowB=Number(counterrowbel.innerHTML);
 	let rowC=Number(counterrowcel.innerHTML);
@@ -45,6 +46,8 @@ function calculatetotal() {
 	let rowJ=Number(counterrowjel.innerHTML);
 	
 	let total = rowA+rowB+rowC+rowD+rowE+rowF+rowG+rowH+rowI+rowJ;
+	document.getElementById('counterproducetotalel').innerHTML = total;
+
 	
 	return total;
 }
