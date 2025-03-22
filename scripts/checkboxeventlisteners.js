@@ -6,6 +6,7 @@ function addrows() {
 
 function exampleaddrows() {
 	return 99
+	//counterrowa counterrowb counterrowc counterrowd counterrowe
 }
 document.getElementById('totalel').addEventListener('click', function() {
 	//document.getElementById('displaytotalel').innerHTML = addrows(); //good - when function "return 56;
