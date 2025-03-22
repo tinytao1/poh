@@ -1,12 +1,12 @@
 function addrows() {
-	return 5+6;
+	return 56;
       // counterproducetotal = counterrowa+counterrowb+counterrowc+counterrowd+counterrowe+counterrowf+counterrowg+counterrowh+counterrowi+counterrowj;
 	//counterproducetotalel.innerHTML = counterproducetotal;
 }
 
 document.getElementById('totalel').addEventListener('click', function() {
-	let countertotalexample = addrows();
-	document.getElementById('displaytotalel').innerHTML = 7 //countertotalexample;
+	// let countertotalexample = addrows();
+	document.getElementById('displaytotalel').innerHTML = addrows();  //countertotalexample;
 	
 } )
 
