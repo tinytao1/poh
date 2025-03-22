@@ -1,6 +1,12 @@
-document.getElementById('totalel').addEventListener('click', function() {
+function addrows() {
+	return 5+6;
+      // counterproducetotal = counterrowa+counterrowb+counterrowc+counterrowd+counterrowe+counterrowf+counterrowg+counterrowh+counterrowi+counterrowj;
+	//counterproducetotalel.innerHTML = counterproducetotal;
+}
+
+document.getElementById('displaytotalel').addEventListener('click', function() {
 	let countertotalexample = addrows();
-	document.getElementById('totalel').innerHTML = countertotalexample;
+	document.getElementById('displaytotalel').innerHTML = 7 //countertotalexample;
 	
 } )
 
