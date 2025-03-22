@@ -4,7 +4,7 @@ function addrows() {
 	//counterproducetotalel.innerHTML = counterproducetotal;
 }
 
-document.getElementById('displaytotalel').addEventListener('click', function() {
+document.getElementById('totalel').addEventListener('click', function() {
 	let countertotalexample = addrows();
 	document.getElementById('displaytotalel').innerHTML = 7 //countertotalexample;
 	
