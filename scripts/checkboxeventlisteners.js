@@ -1,3 +1,9 @@
+document.getElementById('totalel').addEventListener('click', function() {
+	let countertotalexample = addrows();
+	document.getElementById('totalel').innerHTML = countertotalexample;
+	
+} )
+
 a1.addEventListener('change', function() {
 	checkbox1of6(...rowaarray);
 	addrows();
