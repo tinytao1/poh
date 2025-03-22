@@ -6,7 +6,7 @@ function checkbox1of6(id1,id2,id3,id4,id5,id6,counterrow,counterrowel) {
 	if (id1.checked == true) {
 		counterrow = 1;
 		counterrowel.innerHTML = counterrow;
-		calculatetotal();
+		return counterrow;
 	} else if (id1.checked == false && id2.checked == true) {
 		counterrow=1;
 		id3.checked = false;
