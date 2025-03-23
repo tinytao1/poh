@@ -8,31 +8,19 @@
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <link rel="stylesheet" href="styles/produce.css">
-
 <style>
 
 </style>
 </head>
 
 <body onload="uncheckallloop()">
-
 <div class="container-fluid text-center  ">
   <p id="committed"></p>
   <h1 class="mt-4 pb-5 display-1">Produce Order Helper</h1>
   <div class="btn-group">
     <div id="btns-top-row-div" class="text-start">
       <button id="uncheckalltop" type="button" class="btn btn-secondary ">UNCHECK All</button>
-<!--  TESTING, ELEMENTS FOR
-      <button id="totalel" type="button" class="btn btn-secondary ">Calculate Total</button>
-      <span id='displaytotalel'>Show</span>	
-<script>
-"use strict";
-document.getElementById('totalel').addEventListener('click', function() {
-	document.getElementById('displaytotalel').innerHTML = calculateproducetotal();
-	document.getElementById('counterproducetotalel').innerHTML = calculateproducetotal();
-} );
-</script>
--->
+<!--  TESTING, ELEMENTS FOR, ARE COMMENTED OUT AT BOTTOM OF FILE -->
     </div>
   </div>
 <div id="divA-1"class="row mb-2 align-items-center" >
@@ -224,4 +212,15 @@ document.getElementById('totalel').addEventListener('click', function() {
 <script src="scripts/checkboxeventlisteners.js" ></script>
 <script src="scripts/main.js" ></script>
 </body>
+    <!--
+      <button id="totalel" type="button" class="btn btn-secondary ">Calculate Total</button>
+      <span id='displaytotalel'>Show</span>	
+<script>
+"use strict";
+document.getElementById('totalel').addEventListener('click', function() {
+	document.getElementById('displaytotalel').innerHTML = calculateproducetotal();
+	document.getElementById('counterproducetotalel').innerHTML = calculateproducetotal();
+} );
+</script>
+-->
 </html>
