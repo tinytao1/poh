@@ -18,8 +18,7 @@ function checkbox1of6(id1,id2,id3,id4,id5,id6,counterrow,counterrowel) {
 	} else {
 		counterrow=0;
 		counterrowel.innerHTML = counterrow;
-	}
-}
+	}}
 
 function checkbox2of6(id1,id2,id3,id4,id5,id6,counterrow,counterrowel) {
 	if (id2.checked == true) {
@@ -38,8 +37,7 @@ function checkbox2of6(id1,id2,id3,id4,id5,id6,counterrow,counterrowel) {
 		counterrow = 0;
 		id1.checked = false;
 		counterrowel.innerHTML = counterrow;
-	}
-}
+	}}
 
 function checkbox3of6(id1,id2,id3,id4,id5,id6,counterrow,counterrowel) {
 	if (id3.checked == true) {
@@ -59,8 +57,7 @@ function checkbox3of6(id1,id2,id3,id4,id5,id6,counterrow,counterrowel) {
 		id1.checked = false;
 		id2.checked = false; 
 		counterrowel.innerHTML = counterrow;
-	}
-}
+	}}
 function checkbox4of6(id1,id2,id3,id4,id5,id6,counterrow,counterrowel) {
 	if (id4.checked == true) {
 		counterrow=4;
@@ -80,9 +77,7 @@ function checkbox4of6(id1,id2,id3,id4,id5,id6,counterrow,counterrowel) {
 		id2.checked = false;
 		id3.checked = false;
 		counterrowel.innerHTML = counterrow;
-	}
-
-}
+	}}
 function checkbox5of6(id1,id2,id3,id4,id5,id6,counterrow,counterrowel) {
 	if (id5.checked == true) {
 		counterrow=5;
@@ -103,8 +98,7 @@ function checkbox5of6(id1,id2,id3,id4,id5,id6,counterrow,counterrowel) {
 		id3.checked = false;
 		id4.checked = false;
 		counterrowel.innerHTML = counterrow;
-	}
-}
+	}}
 function checkbox6of6(id1,id2,id3,id4,id5,id6,counterrow,counterrowel) {
 	if (id6.checked == true) {
 		counterrow=6;
@@ -122,8 +116,7 @@ function checkbox6of6(id1,id2,id3,id4,id5,id6,counterrow,counterrowel) {
 		id4.checked = false;
 		id5.checked = false;
 		counterrowel.innerHTML = counterrow;
-	}
-}
+	}}
 
 function uncheckallloop() {
 	for (var i = 0; i < allcheckboxesarray.length; i++) {
@@ -142,9 +135,7 @@ function uncheckallloop() {
 			counterrowiel.innerHTML = 0;
 			counterrowjel.innerHTML = 0;
 			// calculateproducetotal();
-		}
-	}
-}
+		}}}
 
 /*
 UNCHECK ALL STATEMENTS
