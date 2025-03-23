@@ -130,6 +130,7 @@ function uncheckallloop() {
 		allcheckboxesarray[i].checked = false;
 		if (i == allcheckboxesarray.length - 1) {
 			counterproducetotal = 0;
+			counterproducetotalel = 0;
 			counterrowael.innerHTML = 0;
 			counterrowbel.innerHTML = 0;
 			counterrowcel.innerHTML = 0;
