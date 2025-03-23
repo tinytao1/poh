@@ -133,13 +133,13 @@ function uncheckallloop() {
 			counterrowael.innerHTML = 0;
 			counterrowbel.innerHTML = 0;
 			counterrowcel.innerHTML = 0;
-			counterrowdel.innerHTML = counterrow;
-			counterroweel.innerHTML = counterrow;
-			counterrowfel.innerHTML = counterrow;
-			counterrowgel.innerHTML = counterrow;
-			counterrowhel.innerHTML = counterrow;
-			counterrowiel.innerHTML = counterrow;
-			counterrowjel.innerHTML = counterrow;
+			counterrowdel.innerHTML = 0;
+			counterroweel.innerHTML = 0;
+			counterrowfel.innerHTML = 0;
+			counterrowgel.innerHTML = 0;
+			counterrowhel.innerHTML = 0;
+			counterrowiel.innerHTML = 0;
+			counterrowjel.innerHTML = 0;
 			// calculateproducetotal();
 		}
 	}
