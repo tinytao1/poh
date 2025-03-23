@@ -136,6 +136,21 @@ function uncheckallloop() {
 			counterrowjel.innerHTML = 0;
 			// calculateproducetotal();
 		}}}
+function calculateproducetotal() {
+	let rowA=Number(counterrowael.innerHTML);
+	let rowB=Number(counterrowbel.innerHTML);
+	let rowC=Number(counterrowcel.innerHTML);
+	let rowD=Number(counterrowdel.innerHTML);
+	let rowE=Number(counterroweel.innerHTML);
+	let rowF=Number(counterrowfel.innerHTML);
+	let rowG=Number(counterrowgel.innerHTML);
+	let rowH=Number(counterrowhel.innerHTML);
+	let rowI=Number(counterrowiel.innerHTML);
+	let rowJ=Number(counterrowjel.innerHTML);
+	let total = rowA+rowB+rowC+rowD+rowE+rowF+rowG+rowH+rowI+rowJ;
+	document.getElementById('counterproducetotalel').innerHTML = total;
+	return total;
+}
 
 /*
 UNCHECK ALL STATEMENTS
