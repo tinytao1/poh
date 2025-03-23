@@ -4,7 +4,7 @@
 a1.addEventListener('change', function() {
 	checkbox1of6(...rowaarray);
 	calculateproducetotal();
-} )
+} ) 
 a2.addEventListener('change', function() {
 	checkbox2of6(...rowaarray);
 	calculateproducetotal();
