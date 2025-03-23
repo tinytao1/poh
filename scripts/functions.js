@@ -154,7 +154,6 @@ function uncheckallloop() {
 	for (var i = 0; i < allcheckboxesarray.length; i++) {
 		allcheckboxesarray[i].checked = false;
 		if (i == allcheckboxesarray.length - 1) {
-			counterrow = 0;
 			counterproducetotal = 0;
 			counterrowael.innerHTML = counterrow;
 			counterrowbel.innerHTML = counterrow;
