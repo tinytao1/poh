@@ -5,7 +5,7 @@ let CDS = 'Sunday, 23 March, 2025';
 let CTS = '3:54 PM';
 
 document.getElementById('committed')
-.innerHTML = `committed: ${CDS}<br />${CTS}.`;
+.innerHTML = `version: ${CDS}<br />${CTS}.`;
 
 uncheckalltop.addEventListener('click', uncheckallloop);
 uncheckallbtm.addEventListener('click', uncheckallloop);
