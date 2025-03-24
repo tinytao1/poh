@@ -11,3 +11,6 @@ input[type] {
 #btns-btm-row-div {
     padding-bottom:18px;
 }
+#countersviewdiv {
+    max-width: 600px;
+}
