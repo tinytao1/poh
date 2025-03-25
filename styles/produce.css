@@ -1,3 +1,10 @@
+
+
+#title {
+    color: white;
+    background-color: rgb(255, 0, 102);
+}
+
 input[type] {
     scale: 2.3;
       margin-right: 21px;
