@@ -1,12 +1,14 @@
 
 
 #title { 
+    font-family: 'Roboto Slab', Arial, serif;
+    font-weight: 500;
     margin-bottom: 22px;
     padding-top:18px;
     padding-bottom:28px;
     text-align: center;
     color: white;
-    background-color: #cc0066;
+    background-color: rgb(98, 93, 89);
 }
 
 input[type] {
