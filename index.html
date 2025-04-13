@@ -50,34 +50,44 @@
 </div>	
 <!-- END topbuttonsrowdiv -->
 	
+<!-- BEGIN SETTINGS DIV-->
 <div class='container-fluid ' 
 	id='settingsdiv'>
 	
   <div class='row'>
 	  
-    <div class='col-4'>
-	    
+    <div class='col-2'>
+	    A
     </div>
 	  
-    <div class='col-4  '>
-
+    <div class='col-10  '>
+<!-- Begin row with Double columns inside -->    
+      <div class="row">
+    
+        <div class="col-10">
+          <input type="text" class="form-control" placeholder="Produce name" name="producenamea">
+        </div>
+      
+        <div class="col-2">
+          <input type="text" class="form-control" placeholder="# per &#10004;" name="quantitya">
+        </div>
+      
+      </div>
+<!-- End row with Double columns inside -->    
     </div>
-	  
-    <div class='col-4'>
-
-    </div>
+<!-- end 2nd column -->
   </div>
+<!-- end row -->
 </div>
-<!-- END settingsdiv -->
+<!-- END SETTINGS DIV -->
 
-
-	
+<!-- BEGIN COUNTERS DIV  -  2 Columns-->
 <div class="container-fluid
 	    text-center "
 	id='countersviewdiv'>
 	
 <div class="row mb-2 align-items-center" >
-	
+<!-- Begin Counter Column-1 (1/4 of width)-->
   <div class="col-3" >
     <div class='row align-items-center' >
 	    
@@ -91,6 +101,7 @@
     </div>
   </div>
 	
+<!-- Begin Counter Column-2 (3/4 of width)-->
   <div class="col-9 text-end ">
     <input type="checkbox" id="a1" class=" "/> 
     <input type="checkbox" id="a2" />
