@@ -29,7 +29,9 @@
 	  
     <div class='col-4'>
 	<button type="button" 
-		class="btn btn-info btn-lg">
+		class="btn btn-info btn-lg"
+		data-bs-toggle="collapse"
+		data-bs-target="#settingsdiv">
 		Settings
 	</button>
     </div>
@@ -50,7 +52,7 @@
 <!-- END TOP BUTTONS ROW : topbuttonsrowdiv -->
 	
 <!-- BEGIN SETTINGS DIV-->
-<div class='container-fluid mb-5' 
+<div class='container-fluid mb-5 collapse' 
 	id='settingsdiv'>
 	
   <div class='row align-items-center'>
@@ -63,12 +65,14 @@
 <!-- Begin row with Double columns inside -->    
       <div class="row"> 
     
-        <div class="col-10"> 
-          <input type="text" class="form-control" placeholder="Produce name" name="producenamea">
+        <div class="col-9"> 
+          <input type="text" class="form-control form-control-lg" 
+		  placeholder="Produce name" name="producenamea">
         </div> 
       
-        <div class="col-2"> 
-          <input type="text" class="form-control" placeholder="# per &#10004;" name="quantitya">
+        <div class="col-3"> 
+          <input type="text" class="form-control form-control-lg" 
+		  placeholder="# per &#10004;" name="quantitya">
         </div> 
       
       </div>
