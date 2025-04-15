@@ -1,8 +1,8 @@
 "use strict";
 
 //   /////////////////// variable 'acounter' appears is being automatically declared for use by the browser ////////
-let CDS = 'April 13 2025';
-let CTS = 'Sunday 4:30 PM';
+let CDS = 'April 15 2025';
+let CTS = 'Tuesday 11:00 AM';
 
 document.getElementById('committed')
 .innerHTML = `version: ${CDS}<br />${CTS}.`;
