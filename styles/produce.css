@@ -11,11 +11,12 @@
     color: white;
     background-color: rgb(212, 27, 103);
 }
-
+/*
 input[type] {
     scale: 2.3;
       margin-right: 21px;
 }
+*/
 #a6, #b6, #c6, #d6, #e6, #f6, #g6, #h6, #i6, #j6 {
       margin-right: 5px;
   }
