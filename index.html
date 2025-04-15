@@ -22,6 +22,7 @@
     Produce Order Helper
   </h1>
 
+<!-- BEGIN TOP BUTTONS DIV topbuttonsrowdiv -->
 <div class='container-fluid mb-5 ' 
 	id='topbuttonsrowdiv'>
 	
@@ -48,8 +49,7 @@
     </div>
 	  
   </div>
-</div>	
-<!-- END TOP BUTTONS ROW : topbuttonsrowdiv -->
+</div>	<!-- END TOP BUTTONS ROW : topbuttonsrowdiv -->
 	
 <!-- BEGIN SETTINGS DIV-->
 <div class='container-fluid mb-5 collapse show
@@ -97,7 +97,9 @@
 </div> <!-- END SETTINGS DIV -->
 
 <!-- BEGIN COUNTERS DIV  -  2 Columns-->
-<div class="container-fluid text-center " id='countersviewdiv'>
+<div class="container-fluid text-center 
+	    my-4" 
+	id='countersviewdiv'>
 	
   <div class="row mb-2 align-items-center" >
 <!-- Begin Counter Column-1 (1/4 of width)-->
@@ -372,13 +374,23 @@
   <button id="uncheckallbtm" type="button" class="btn btn-warning float-start">UNCHECK All</button>
 </div>
 	
-<div class='viewdiv'>
+<!-- BEGIN VIEW DIV -->
+<div class='container-fluid text-center
+	    border border-5 border-success rounded-4'>	
 
-	<div class='viewrow'> item A plus quantity</div>
-	<div class='viewrow'> item B plus quantity</div>
-	<div class='viewrow'> item C plus quantity</div>
+	<div class='my-4 h1'>
+    Item A plus quantity
+    </div>
     
-</div>
+	<div class='my-4 h1'>
+    Item B plus quantity
+    </div>
+    
+	<div class='my-4 h1'>
+    Item C plus quantity
+    </div>
+    
+</div>	<!-- END VIEW DIV -->
 	
 <p id="committed"></p>
 	
