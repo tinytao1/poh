@@ -193,6 +193,16 @@ function uncheckallloop() {
 			counterrowhel.innerHTML = 0;
 			counterrowiel.innerHTML = 0;
 			counterrowjel.innerHTML = 0;
+			getrowatotal();
+			getrowbtotal();
+			getrowctotal();
+			getrowdtotal();
+			getrowetotal();
+			getrowftotal();
+			getrowgtotal();
+			getrowhtotal();
+			getrowitotal();
+			getrowjtotal();
 			// calculateproducetotal();
 		}}}
 function calculateproducetotal() {
