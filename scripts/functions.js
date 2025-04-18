@@ -16,9 +16,11 @@ function checkbox1of6(id1,id2,id3,id4,id5,id6,counterrow,counterrowel) {
 		id5.checked = false;
 		id6.checked = false;
 		counterrowel.innerHTML = counterrow;
+		return counterrow;
 	} else {
 		counterrow=0;
 		counterrowel.innerHTML = counterrow;
+		return counterrow;
 	}}
 
 function checkbox2of6(id1,id2,id3,id4,id5,id6,counterrow,counterrowel) {
@@ -26,6 +28,7 @@ function checkbox2of6(id1,id2,id3,id4,id5,id6,counterrow,counterrowel) {
 		id1.checked = true;
 		counterrow=2;
 		counterrowel.innerHTML = counterrow;
+		return counterrow;
 	} else if (id2.checked == false && id3.checked == true ) {
 		counterrow=2;
 		id2.checked=true;
@@ -34,10 +37,12 @@ function checkbox2of6(id1,id2,id3,id4,id5,id6,counterrow,counterrowel) {
 		id5.checked = false;
 		id6.checked = false;
 		counterrowel.innerHTML = counterrow;
+		return counterrow;
 	} else {
 		counterrow = 0;
 		id1.checked = false;
 		counterrowel.innerHTML = counterrow;
+		return counterrow;
 	}}
 
 function checkbox3of6(id1,id2,id3,id4,id5,id6,counterrow,counterrowel) {
@@ -46,6 +51,7 @@ function checkbox3of6(id1,id2,id3,id4,id5,id6,counterrow,counterrowel) {
 		id1.checked = true;
 		id2.checked = true; 
 		counterrowel.innerHTML = counterrow;
+		return counterrow;
 	} else if (id3.checked == false && id4.checked == true ) {
 		counterrow=3;
 		id3.checked=true;
@@ -53,11 +59,13 @@ function checkbox3of6(id1,id2,id3,id4,id5,id6,counterrow,counterrowel) {
 		id5.checked = false;
 		id6.checked = false;
 		counterrowel.innerHTML = counterrow;
+		return counterrow;
 	} else {
 		counterrow=0;
 		id1.checked = false;
 		id2.checked = false; 
 		counterrowel.innerHTML = counterrow;
+		return counterrow;
 	}}
 function checkbox4of6(id1,id2,id3,id4,id5,id6,counterrow,counterrowel) {
 	if (id4.checked == true) {
@@ -66,18 +74,21 @@ function checkbox4of6(id1,id2,id3,id4,id5,id6,counterrow,counterrowel) {
 		id2.checked = true;
 		id3.checked = true;
 		counterrowel.innerHTML = counterrow;
+		return counterrow;
 	} else if (id4.checked == false && id5.checked == true ) {
 		counterrow=4;
 		id4.checked = true;
 		id5.checked = false;
 		id6.checked = false;
 		counterrowel.innerHTML = counterrow;
+		return counterrow;
 	} else {
 		counterrow = 0;
 		id1.checked = false;
 		id2.checked = false;
 		id3.checked = false;
 		counterrowel.innerHTML = counterrow;
+		return counterrow;
 	}}
 function checkbox5of6(id1,id2,id3,id4,id5,id6,counterrow,counterrowel) {
 	if (id5.checked == true) {
@@ -87,18 +98,21 @@ function checkbox5of6(id1,id2,id3,id4,id5,id6,counterrow,counterrowel) {
 		id3.checked = true;
 		id4.checked = true;
 		counterrowel.innerHTML = counterrow;
+		return counterrow;
 	} else if (id5.checked == false && id6.checked == true ) {
 		counterrow=5;
 		id5.checked = true;
 		id6.checked = false;
 		counterrowel.innerHTML = counterrow;
+		return counterrow;
 	} else {
-  counterrow = 0;
+  		counterrow = 0;
 		id1.checked = false;
 		id2.checked = false;
 		id3.checked = false;
 		id4.checked = false;
 		counterrowel.innerHTML = counterrow;
+		return counterrow;
 	}}
 function checkbox6of6(id1,id2,id3,id4,id5,id6,counterrow,counterrowel) {
 	if (id6.checked == true) {
@@ -109,6 +123,7 @@ function checkbox6of6(id1,id2,id3,id4,id5,id6,counterrow,counterrowel) {
 		id4.checked = true;
 		id5.checked = true;
 		counterrowel.innerHTML = counterrow;
+		return counterrow;
 	} else {
 		counterrow = 0;
 		id1.checked = false;
@@ -117,6 +132,7 @@ function checkbox6of6(id1,id2,id3,id4,id5,id6,counterrow,counterrowel) {
 		id4.checked = false;
 		id5.checked = false;
 		counterrowel.innerHTML = counterrow;
+		return counterrow;
 	}}
 
 function uncheckallloop() {
