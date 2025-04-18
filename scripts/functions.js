@@ -169,6 +169,10 @@ function calculateproducetotal() {
 	return total;
 }
 
+function getrowatotal() {
+	counterrowa = Number(counterrowael.innerHTML);
+}
+
 /*
 UNCHECK ALL STATEMENTS
 function uncheckall() {
