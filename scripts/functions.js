@@ -6,6 +6,42 @@ function getrowatotal() {
 	counterrowa = Number(counterrowael.innerHTML);
 	return counterrowa;
 }
+function getrowbtotal() {
+	counterrowb = Number(counterrowbel.innerHTML);
+	return counterrowb;
+}
+function getrowctotal() {
+	counterrowc = Number(counterrowcel.innerHTML);
+	return counterrowc;
+}
+function getrowdtotal() {
+	counterrowd = Number(counterrowdel.innerHTML);
+	return counterrowd;
+}
+function getrowetotal() {
+	counterrowe = Number(counterroweel.innerHTML);
+	return counterrowe;
+}
+function getrowftotal() {
+	counterrowf = Number(counterrowfel.innerHTML);
+	return counterrowf;
+}
+function getrowgtotal() {
+	counterrowg = Number(counterrowgel.innerHTML);
+	return counterrowg;
+}
+function getrowhtotal() {
+	counterrowh = Number(counterrowhel.innerHTML);
+	return counterrowh;
+}
+function getrowitotal() {
+	counterrowi = Number(counterrowiel.innerHTML);
+	return counterrowi;
+}
+function getrowjtotal() {
+	counterrowj = Number(counterrowjel.innerHTML);
+	return counterrowj;
+}
 
 
 function checkbox1of6(id1,id2,id3,id4,id5,id6,counterrow,counterrowel) {
