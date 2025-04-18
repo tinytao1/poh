@@ -2,6 +2,12 @@
 
 
 
+function getrowatotal() {
+	counterrowa = Number(counterrowael.innerHTML);
+	return counterrowa;
+}
+
+
 function checkbox1of6(id1,id2,id3,id4,id5,id6,counterrow,counterrowel) {
 	if (id1.checked == true) {
 		counterrow = 1;
@@ -167,10 +173,6 @@ function calculateproducetotal() {
 	let total = rowA+rowB+rowC+rowD+rowE+rowF+rowG+rowH+rowI+rowJ;
 	document.getElementById('counterproducetotalel').innerHTML = total;
 	return total;
-}
-
-function getrowatotal() {
-	counterrowa = Number(counterrowael.innerHTML);
 }
 
 /*
