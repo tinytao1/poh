@@ -2,6 +2,10 @@
 
 
 
+function displayitem(counterrow, itemamount) {
+         itemtotal = counterrow * itemamaount;
+	}
+
 function getrowatotal() {
 	counterrowa = Number(counterrowael.innerHTML);
 	return counterrowa;
