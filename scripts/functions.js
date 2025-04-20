@@ -18,12 +18,14 @@ let itemjtotal = 0;
 	} */
 document.getElementById("demo").innerHTML = "Hello JavaScript";
 
-let itemadisplaynumberel = document.getElementById("itemadisplaynumberel").innerHTML;
+let itemadisplaynumberel = document.getElementById('itemadisplaynumberel');    
+let itemadisplaynameel = document.getElementById('itemadisplaynameel');
+let itemanameel = document.getElementById('itemanameel');
 
 function displayitema() {
          itematotal = counterrowa * Number(itemaamaountel.innerHTML);
-									itemadisplaynumberel = itematotal;
-									
+									itemadisplaynumberel.innerHTML = itematotal;
+									itemadisplaynameel.innerHTML = itemanameel ;
 	}
 
 
