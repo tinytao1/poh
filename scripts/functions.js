@@ -13,12 +13,17 @@ let itemhtotal = 0;
 let itemitotal = 0;
 let itemjtotal = 0;
 
-function displayitem(counterrow, itemamount) {
+/* function displayitem(counterrow, itemamount) {
          itemtotal = counterrow * itemamaount;
-	}
+	} */
+document.getElementById("demo").innerHTML = "Hello JavaScript";
+
+let itemadisplaynumberel = document.getElementById("itemadisplaynumberel").innerHTML;
 
 function displayitema() {
-         itematotal = counterrowa * itemaamaountel;
+         itematotal = counterrowa * Number(itemaamaountel.innerHTML);
+									itemadisplaynumberel = itematotal;
+									
 	}
 
 
