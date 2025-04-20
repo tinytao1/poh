@@ -2,9 +2,25 @@
 
 
 
+let itematotal = 0;
+let itembtotal = 0;
+let itemctotal = 0;
+let itemdtotal = 0;
+let itemetotal = 0;
+let itemftotal = 0;
+let itemgtotal = 0;
+let itemhtotal = 0;
+let itemitotal = 0;
+let itemjtotal = 0;
+
 function displayitem(counterrow, itemamount) {
          itemtotal = counterrow * itemamaount;
 	}
+
+function displayitema() {
+         itematotal = counterrowa * itemamaount;
+	}
+
 
 function getrowatotal() {
 	counterrowa = Number(counterrowael.innerHTML);
