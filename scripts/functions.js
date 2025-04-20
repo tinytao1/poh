@@ -22,10 +22,15 @@ let itemadisplaynumberel = document.getElementById('itemadisplaynumberel');
 let itemadisplaynameel = document.getElementById('itemadisplaynameel');
 let itemanameel = document.getElementById('itemanameel');
 
+SETTINGS
+A. itemanameel, itemaamaountel
+A. Checkboxes
+Display. itemadisplaynameel, itemadisplaynumberel
+
 function displayitema() {
          itematotal = counterrowa * Number(itemaamaountel.innerHTML);
 									itemadisplaynumberel.innerHTML = itematotal;
-									itemadisplaynameel.innerHTML = itemanameel ;
+									itemadisplaynameel.innerHTML = itemanameel.value;
 	}
 
 
