@@ -21,10 +21,12 @@ let itemjtotal = 0;
 let itemadisplaynumberel = document.getElementById('itemadisplaynumberel');    
 let itemadisplaynameel = document.getElementById('itemadisplaynameel');
 let itemanameel = document.getElementById('itemanameel');
+let viewdivtitleel = document.getElementById('viewdivtitleel');
 
-/* SETTINGS
+/* POH
 A. itemanameel, itemaamaountel
 A. Checkboxes
+Display. viewdivtitleel
 Display. itemadisplaynameel, itemadisplaynumberel
 */
 
@@ -32,6 +34,9 @@ function displayitema() {
          itematotal = counterrowa * Number(itemaamaountel.innerHTML);
 									itemadisplaynumberel.innerHTML = itematotal;
 									itemadisplaynameel.innerHTML = itemanameel.value;
+									itemadisplaynameel.style.display = "block";
+									itemadisplaynumberel.style.display = "block";
+									viewdivtitleel.style.display = "none";
 	}
 
 
