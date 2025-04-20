@@ -16,16 +16,17 @@ let itemjtotal = 0;
 /* function displayitem(counterrow, itemamount) {
          itemtotal = counterrow * itemamaount;
 	} */
-document.getElementById("demo").innerHTML = "Hello JavaScript";
+
 
 let itemadisplaynumberel = document.getElementById('itemadisplaynumberel');    
 let itemadisplaynameel = document.getElementById('itemadisplaynameel');
 let itemanameel = document.getElementById('itemanameel');
 
-SETTINGS
+/* SETTINGS
 A. itemanameel, itemaamaountel
 A. Checkboxes
 Display. itemadisplaynameel, itemadisplaynumberel
+*/
 
 function displayitema() {
          itematotal = counterrowa * Number(itemaamaountel.innerHTML);
