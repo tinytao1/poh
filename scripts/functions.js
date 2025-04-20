@@ -241,6 +241,7 @@ function uncheckallloop() {
 			getrowhtotal();
 			getrowitotal();
 			getrowjtotal();
+			viewdivtitleel.style.display = 'block';
 			// calculateproducetotal();
 		}}}
 function calculateproducetotal() {
