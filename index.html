@@ -369,6 +369,12 @@ BEGIN
 </div> <!-- ROW J END-->
 
 <!-- BEGIN BOTTOM "HIDE" BUTTON DIV "d-grid" works w btn-block on the button for full-width -->
+<script>
+const settingsdiv = document.getElementById("settingsdiv");
+function scrollToTop() {
+  settingsdiv.scrollIntoView(true);
+}
+</script>
   <div class="d-grid"> <!-- BEGIN BOTTOM "HIDE" BUTTON DIV "d-grid" works w btn-block on the button for full-width -->
     <a href='#title' 
     	    class="btn btn-success btn-lg
@@ -377,6 +383,7 @@ BEGIN
 	    data-bs-toggle="collapse"
 	    data-bs-target="#settingsdiv"
       role='button'
+      onclick="scrollToTop()"
             >
             Hide Settings
     </a>
