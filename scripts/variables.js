@@ -1,6 +1,32 @@
 "use strict";
 
 
+let itemaname;
+let itemaamount;
+
+const itemanameel = document.getElementById('itemanameel');
+const itemaamountel = document.getElementById('itemaamountel');
+
+let itematotal = 0;
+let itembtotal = 0;
+let itemctotal = 0;
+let itemdtotal = 0;
+let itemetotal = 0;
+let itemftotal = 0;
+let itemgtotal = 0;
+let itemhtotal = 0;
+let itemitotal = 0;
+let itemjtotal = 0;
+
+let itemadisplayname;
+let itemadisplaynumber;
+
+const itemadisplaynameel = document.getElementById('itemadisplaynameel');
+const itemadisplayamountel = document.getElementById('itemadisplayamountel');
+
+// ITEM A VARIABLES ////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
 let counterrowa = 0;
 let counterrowb = 0;
 let counterrowc = 0;
