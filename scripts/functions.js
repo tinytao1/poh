@@ -12,10 +12,10 @@ Display. itemadisplaynameel, itemadisplaynumberel
 function displayitema() {
         itematotal = counterrowa * Number(itemaamountel.innerHTML);
 	itemadisplaynumberel.innerHTML = itematotal;
-	itemadisplaynameel.innerHTML = itemanameel.value;
-	itemadisplaynameel.style.display = "block";
-	itemadisplaynumberel.style.display = "block";
-	viewdivtitleel.style.display = "none";
+	//itemadisplaynameel.innerHTML = itemanameel.value;
+	//itemadisplaynameel.style.display = "block";
+	//itemadisplaynumberel.style.display = "block";
+	//viewdivtitleel.style.display = "none";
 	}
 
 
