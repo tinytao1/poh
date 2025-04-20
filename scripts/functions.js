@@ -18,7 +18,7 @@ function displayitem(counterrow, itemamount) {
 	}
 
 function displayitema() {
-         itematotal = counterrowa * itemamaount;
+         itematotal = counterrowa * itemaamaountel;
 	}
 
 
