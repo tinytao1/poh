@@ -29,14 +29,14 @@ A. Checkboxes
 Display. viewdivtitleel
 Display. itemadisplaynameel, itemadisplaynumberel
 */
-
+let itemaamaountel = doncument.getElementById('itemaamaountel');
 function displayitema() {
-         itematotal = counterrowa * Number(itemaamaountel.innerHTML);
-									itemadisplaynumberel.innerHTML = itematotal;
-									itemadisplaynameel.innerHTML = itemanameel.value;
-									itemadisplaynameel.style.display = "block";
-									itemadisplaynumberel.style.display = "block";
-									viewdivtitleel.style.display = "none";
+        itematotal = counterrowa * Number(itemaamaountel.innerHTML);
+	//itemadisplaynumberel.innerHTML = itematotal;
+	//itemadisplaynameel.innerHTML = itemanameel.value;
+	//itemadisplaynameel.style.display = "block";
+	//itemadisplaynumberel.style.display = "block";
+	//viewdivtitleel.style.display = "none";
 	}
 
 
