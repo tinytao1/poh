@@ -5,32 +5,48 @@ a1.addEventListener('change', function() {
 	checkbox1of6(...rowaarray);
 	calculateproducetotal();
 	getrowatotal();
+	displayitema();
 } ) 
 a2.addEventListener('change', function() {
 	checkbox2of6(...rowaarray);
 	calculateproducetotal();
 	getrowatotal();
+	displayitema();
 } )
 a3.addEventListener('change', function() {
 	checkbox3of6(...rowaarray);
 	calculateproducetotal();
 	getrowatotal();
+	displayitema();
 })
 a4.addEventListener('change', function() {
 	checkbox4of6(...rowaarray);
 	calculateproducetotal();
 	getrowatotal();
+	displayitema();
 } )
 a5.addEventListener('change', function() {
 	checkbox5of6(...rowaarray);
 	calculateproducetotal();
 	getrowatotal();
+	displayitema();
 } )
 a6.addEventListener('change', function() {
 	checkbox6of6(...rowaarray);
 	calculateproducetotal();
 	getrowatotal();
+	displayitema();
 } )
+
+
+
+
+
+
+
+
+
+
 b1.addEventListener('change', function() {
 	checkbox1of6(...rowbarray);
 	calculateproducetotal();
