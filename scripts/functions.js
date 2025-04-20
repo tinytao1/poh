@@ -1,27 +1,7 @@
 "use strict";
-
-
-
-let itematotal = 0;
-let itembtotal = 0;
-let itemctotal = 0;
-let itemdtotal = 0;
-let itemetotal = 0;
-let itemftotal = 0;
-let itemgtotal = 0;
-let itemhtotal = 0;
-let itemitotal = 0;
-let itemjtotal = 0;
-
 /* function displayitem(counterrow, itemamount) {
          itemtotal = counterrow * itemamaount;
 	} */
-
-
-let itemadisplaynumberel = document.getElementById('itemadisplaynumberel');    
-let itemadisplaynameel = document.getElementById('itemadisplaynameel');
-let itemanameel = document.getElementById('itemanameel');
-let viewdivtitleel = document.getElementById('viewdivtitleel');
 
 /* POH
 A. itemanameel, itemaamaountel
@@ -29,14 +9,13 @@ A. Checkboxes
 Display. viewdivtitleel
 Display. itemadisplaynameel, itemadisplaynumberel
 */
-let itemaamaountel = doncument.getElementById('itemaamaountel');
 function displayitema() {
         itematotal = counterrowa * Number(itemaamaountel.innerHTML);
-	//itemadisplaynumberel.innerHTML = itematotal;
-	//itemadisplaynameel.innerHTML = itemanameel.value;
-	//itemadisplaynameel.style.display = "block";
-	//itemadisplaynumberel.style.display = "block";
-	//viewdivtitleel.style.display = "none";
+	itemadisplaynumberel.innerHTML = itematotal;
+	itemadisplaynameel.innerHTML = itemanameel.value;
+	itemadisplaynameel.style.display = "block";
+	itemadisplaynumberel.style.display = "block";
+	viewdivtitleel.style.display = "none";
 	}
 
 
