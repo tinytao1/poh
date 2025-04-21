@@ -12,8 +12,8 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
 <!--SETTINGS DIV Ln 60 -->
-<!--COUNTERS DIV Ln 380 -->
-<!--VIEW DIV Ln 710 -->
+<!--COUNTERS DIV Ln 450 -->
+<!--VIEW DIV Ln 775 -->
 <style>
 
 
@@ -739,43 +739,13 @@ function scrollToTop() {
 	  
 </div>
 </div>
-<!-- BOTTOM BUTTONS DIV END -->
+<!-- BOTTOM BUTTONS DIV END /////////////////////////////////-->
 	
-<!-- original BOTTOM BUTTONS ROW BEGIN DIV-->
-<!-- <div id="divK-11" class="row mb-2 align-items-center" > -->
-<!--   <div class="col-3 text-end">  -->
-<!--     <div class='row align-items-center' > -->
-<!-- 	    -->
-<!--     <div class="col-4" > -->
-<!--    <span class="display-1"></span> -->
-<!--       </div> -->
-<!-- 	    -->
-<!--       <div class="col-8 text-start" > -->
-<!--         <span id="counterproducetotalel" -->
-<!-- 	      class='display-5 text-bg-info' -->
-<!-- 	      style='padding-left:6px; padding-right:6px; border-radius:4px;' -->
-<!-- 	> -->
-<!-- 	  0 -->
-<!-- 	</span> -->
-<!--       </div>  -->   
-<!--   </div> -->
-<!--	<span id="counterrow###" class='display-4'>0</span> -->
-<!-- </div> -->
-<!-- </div> -->
-<!-- --> 
-<!-- <div id="btns-btm-row-div" class="btn-group text-start" > -->
-<!--   <button id="uncheckallbtm" -->
-<!--     type="button" -->
-<!--     class="btn btn-warning btn-lg -->
-<!--            float-start"> -->
-<!--     Uncheck -->
-<!--   </button> -->
-<!-- </div> -->
+<!-- DISPLAY DIV BEGIN /////////////////////////////////////////-->
 	
-<!-- BEGIN VIEW DIV -->
 <div class='container-fluid text-center text-success
 	    border border-5 border-success rounded-4'>	
-  <div id='viewdivtitleel' >
+  <div id='viewdivtitleel' class='mb-5' >
     <h2 class='' >
       Item Totals Should 
       Appear In This Box
@@ -785,11 +755,11 @@ function scrollToTop() {
     </h2>
   </div>
 
-<!-- ITEM A DISPLAY DIV BEGIN -->
+<!-- DISPLAY ITEM A DIV BEGIN ///////////////////////////////////////-->
   <div style='display:none;'
 	  id='itemadisplayrowel' > 
 
-    <div class='row my-4 '> <!-- align-items-center -->
+    <div class='row my-4 '> 
 	  
       <div class='col-8 h1 text-center'
            id='itemadisplaynameel' >
@@ -800,51 +770,182 @@ function scrollToTop() {
            id='itemadisplaynumberel' >
         A#
       </div>
-	    
     </div>  
 </div>
-<!-- ITEM A DISPLAY DIV END -->
+<!-- DISPLAY ITEM A DIV END /////////////////////////////////////-->
 	
-<!-- DISPLAY : NONE BEGIN--> 
-   <div style='display:none;' > 
-    
-  <div class='my-4 h1'>
-    Item B plus quantity
-  </div>
-    
-  <div class='my-4 h1'>
-    Item C plus quantity
-  </div>
+<!-- DISPLAY ITEM B DIV BEGIN ///////////////////////////////////////-->
+  <div style='display:none;'
+	  id='itembdisplayrowel' > 
 
-  <div class='my-4 h1'>
-    Item D plus quantity
-  </div>
-    
-  <div class='my-4 h1'>
-    Item E plus quantity
-  </div>
-    
-  <div class='my-4 h1'>
-    Item F plus quantity
-  </div>
-  <div class='my-4 h1'>
-    Item G plus quantity
-  </div>
-    
-  <div class='my-4 h1'>
-    Item H plus quantity
-  </div>
-    
-  <div class='my-4 h1'>
-    Item I plus quantity
-  </div>
+    <div class='row my-4 '> 
+	  
+      <div class='col-8 h1 text-center'
+           id='itembdisplaynameel' >
+        Item B Name
+      </div>
+  
+      <div class='col-4 h1 text-start '
+           id='itembdisplaynumberel' >
+        B#
+      </div>   
+    </div>  
+</div>
+<!-- DISPLAY ITEM B DIV END /////////////////////////////////////-->
+	
+<!-- DISPLAY ITEM C DIV BEGIN ///////////////////////////////////////-->
+  <div style='display:none;'
+	  id='itemcdisplayrowel' > 
 
-  <div class='my-4 h1'>
-    Item J plus quantity
-  </div>
-</div><!-- DISPLAY : NONE END -->
-   
-</div>	<!-- END VIEW DIV -->
+    <div class='row my-4 '> 
+	  
+      <div class='col-8 h1 text-center'
+           id='itemcdisplaynameel' >
+        Item C Name
+      </div>
+  
+      <div class='col-4 h1 text-start '
+           id='itemcdisplaynumberel' >
+        C#
+      </div>   
+    </div>  
+</div>
+<!-- DISPLAY ITEM C DIV END /////////////////////////////////////-->
+	
+<!-- DISPLAY ITEM D DIV BEGIN ///////////////////////////////////////-->
+  <div style='display:none;'
+	  id='itemddisplayrowel' > 
+
+    <div class='row my-4 '> 
+	  
+      <div class='col-8 h1 text-center'
+           id='itemddisplaynameel' >
+        Item D Name
+      </div>
+  
+      <div class='col-4 h1 text-start '
+           id='itemddisplaynumberel' >
+        D#
+      </div>   
+    </div>  
+</div>
+<!-- DISPLAY ITEM D DIV END /////////////////////////////////////-->    
+
+<!-- DISPLAY ITEM E DIV BEGIN ///////////////////////////////////////-->
+  <div style='display:none;'
+	  id='itemedisplayrowel' > 
+
+    <div class='row my-4 '> 
+	  
+      <div class='col-8 h1 text-center'
+           id='itemedisplaynameel' >
+        Item E Name
+      </div>
+  
+      <div class='col-4 h1 text-start '
+           id='itemedisplaynumberel' >
+        E#
+      </div>   
+    </div>  
+</div>
+<!-- DISPLAY ITEM E DIV END /////////////////////////////////////-->
+
+<!-- DISPLAY ITEM F DIV BEGIN ///////////////////////////////////////-->
+  <div style='display:none;'
+	  id='itemfdisplayrowel' > 
+
+    <div class='row my-4 '> 
+	  
+      <div class='col-8 h1 text-center'
+           id='itemfdisplaynameel' >
+        Item F Name
+      </div>
+  
+      <div class='col-4 h1 text-start '
+           id='itemfdisplaynumberel' >
+        F#
+      </div>   
+    </div>  
+</div>
+<!-- DISPLAY ITEM F DIV END /////////////////////////////////////-->
+	
+<!-- DISPLAY ITEM G DIV BEGIN ///////////////////////////////////////-->
+  <div style='display:none;'
+	  id='itemgdisplayrowel' > 
+
+    <div class='row my-4 '> 
+	  
+      <div class='col-8 h1 text-center'
+           id='itemgdisplaynameel' >
+        Item G Name
+      </div>
+  
+      <div class='col-4 h1 text-start '
+           id='itemgdisplaynumberel' >
+        G#
+      </div>   
+    </div>  
+</div>
+<!-- DISPLAY ITEM G DIV END /////////////////////////////////////-->
+	
+<!-- DISPLAY ITEM H DIV BEGIN ///////////////////////////////////////-->
+  <div style='display:none;'
+	  id='itemhdisplayrowel' > 
+
+    <div class='row my-4 '> 
+	  
+      <div class='col-8 h1 text-center'
+           id='itemhdisplaynameel' >
+        Item H Name
+      </div>
+  
+      <div class='col-4 h1 text-start '
+           id='itemhdisplaynumberel' >
+        H#
+      </div>   
+    </div>  
+</div>
+<!-- DISPLAY ITEM H DIV END /////////////////////////////////////-->
+
+<!-- DISPLAY ITEM I DIV BEGIN ///////////////////////////////////////-->
+  <div style='display:none;'
+	  id='itemidisplayrowel' > 
+
+    <div class='row my-4 '> 
+	  
+      <div class='col-8 h1 text-center'
+           id='itemidisplaynameel' >
+        Item I Name
+      </div>
+  
+      <div class='col-4 h1 text-start '
+           id='itemidisplaynumberel' >
+        I#
+      </div>   
+    </div>  
+</div>
+<!-- DISPLAY ITEM I DIV END /////////////////////////////////////-->
+
+<!-- DISPLAY ITEM J DIV BEGIN ///////////////////////////////////////-->
+  <div style='display:none;'
+	  id='itemjdisplayrowel' > 
+
+    <div class='row my-4 '> 
+	  
+      <div class='col-8 h1 text-center'
+           id='itemjdisplaynameel' >
+        Item J Name
+      </div>
+  
+      <div class='col-4 h1 text-start '
+           id='itemjdisplaynumberel' >
+        J#
+      </div>   
+    </div>  
+</div>
+<!-- DISPLAY ITEM J DIV END /////////////////////////////////////-->
+	
+</div>	<!-- DISPLAY DIV END -->
 	
 <p id="committed"></p>
 	
