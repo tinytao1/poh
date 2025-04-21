@@ -220,8 +220,7 @@ function uncheckallloop() {
 			getrowitotal();
 			getrowjtotal();
 			viewdivtitleel.style.display = 'block';
-			itemadisplaynameel.style.display = "none";
-			itemadisplaynumberel.style.display = "none";
+			itemadisplayrowel.style.display = "none";
 			// calculateproducetotal();
 		}}}
 function calculateproducetotal() {
