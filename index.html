@@ -649,7 +649,7 @@ function scrollToTop() {
 </div>
 <!-- COUNTERS DIV END -->
 
-<!-- BOTTOM BUTTONS DIV BIGIN topbuttonsrowdiv -->
+<!-- BOTTOM BUTTONS DIV BEGIN topbuttonsrowdiv -->
 <div class='container-fluid mb-3 '
 	id='bottombuttonsrowdiv'>
 	
@@ -717,30 +717,40 @@ function scrollToTop() {
 <!-- </div> -->
 	
 <!-- BEGIN VIEW DIV -->
-<div class='container-fluid text-center
+<div class='container-fluid text-center text-success
 	    border border-5 border-success rounded-4'>	
-<div id='viewdivtitleel' >
-  <h2 class='text-success' >
+  <div id='viewdivtitleel' >
+    <h2 class='' >
       Item Totals Should 
       Appear In This Box
       Whenever
       A Checkbox Is 
       Checked.
-  </h2>
-</div>
-
-
-  <div class='my-4 h1'
-       id='itemadisplaynameel'
-       style='display:none'>
-    Item A Name
+    </h2>
   </div>
+
+<!-- ITEM A DISPLAY DIV BEGIN -->
+  <div class='row my-4 align-items-center'>
+	  
+    <div class='col-4 '
+	 id='emptycolumnitemadisplay'
+	    style='display:none'>
+    </div>
+	  
+    <div class='col-4 text-center h1'
+           id='itemadisplaynameel'
+           style='display:none'>
+        Item A Name
+    </div>
   
-  <div class='my-4 h1'
+    <div class='h1 '
        id='itemadisplaynumberel'
        style='display:none'>
-    A #
-  </div>
+      A #
+    </div>
+	  
+</div>
+<!-- ITEM A DISPLAY DIV END -->
 	
 <!-- DISPLAY : NONE BEGIN--> 
    <div style='display:none;' > 
