@@ -10,7 +10,7 @@ Display. viewdivtitleel
 Display. itemadisplaynameel, itemadisplaynumberel
 */
 function displayitema() {
-        itematotal = counterrowa * Number(itemaamountel.innerHTML);
+        itematotal = counterrowa * Number(itemaamountel.value);
 	itemadisplaynumberel.innerHTML = itematotal;
 	itemadisplaynameel.innerHTML = itemanameel.value;
 	itemadisplaynameel.style.display = "block";
