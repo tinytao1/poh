@@ -59,15 +59,15 @@ let itemitotal = 0;
 let itemjtotal = 0;
 
 let itemadisplayname;
-let item displayname;
-let item displayname;
-let item displayname;
-let item displayname;
-let item displayname;
-let item displayname;
-let item displayname;
-let item displayname;
-let item displayname;
+let itembdisplayname;
+let itemcdisplayname;
+let itemddisplayname;
+let itemedisplayname;
+let itemfdisplayname;
+let itemgdisplayname;
+let itemhdisplayname;
+let itemidisplayname;
+let itemjdisplayname;
 
 let itemadisplaynumber;
 let itembdisplaynumber;
