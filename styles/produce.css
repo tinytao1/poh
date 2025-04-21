@@ -1,5 +1,9 @@
 
 
+.container,
+.container-fluid {
+  max-width: 900px;
+}
 #title { 
     font-family: 'Roboto Slab', Arial, serif;
     font-weight: 400;
