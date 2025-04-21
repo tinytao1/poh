@@ -13,8 +13,7 @@ function displayitema() {
         itematotal = counterrowa * Number(itemaamountel.value);
 	itemadisplaynumberel.innerHTML = itematotal;
 	itemadisplaynameel.innerHTML = itemanameel.value;
-	itemadisplaynameel.style.display = "inline-block";
-	itemadisplaynumberel.style.display = "inline-block";
+	itemadisplayrowel.style.display = "block";
 	viewdivtitleel.style.display = "none";
 	}
 
