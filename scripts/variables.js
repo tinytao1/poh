@@ -1,12 +1,51 @@
 "use strict";
 
-// ITEM A VARIABLES BEGIN //////////////////////////////////////////////////////////////////////////
+// SETTINGS & DISPLAY VARIABLES BEGIN ////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 let itemaname;
+let itembname;
+let itemcname;
+let itemdname;
+let itemename;
+let itemfname;
+let itemgname;
+let item name;
+let item name;
+let item name;
+
 let itemaamount;
+let item amount;
+let item amount;
+let item amount;
+let item amount;
+let item amount;
+let item amount;
+let item amount;
+let item amount;
+let item amount;
 
 const itemanameel = document.getElementById('itemanameel');
+const item nameel = document.getElementById('item nameel');
+const item nameel = document.getElementById('item nameel');
+const item nameel = document.getElementById('item nameel');
+const item nameel = document.getElementById('item nameel');
+const item nameel = document.getElementById('item nameel');
+const item nameel = document.getElementById('item nameel');
+const item nameel = document.getElementById('item nameel');
+const item nameel = document.getElementById('item nameel');
+const item nameel = document.getElementById('item nameel');
+
+
 const itemaamountel = document.getElementById('itemaamountel');
+const item amountel = document.getElementById('item amountel');
+const item amountel = document.getElementById('item amountel');
+const item amountel = document.getElementById('item amountel');
+const item amountel = document.getElementById('item amountel');
+const item amountel = document.getElementById('item amountel');
+const item amountel = document.getElementById('item amountel');
+const item amountel = document.getElementById('item amountel');
+const item amountel = document.getElementById('item amountel');
+const item amountel = document.getElementById('item amountel');
 
 let itematotal = 0;
 let itembtotal = 0;
@@ -20,13 +59,62 @@ let itemitotal = 0;
 let itemjtotal = 0;
 
 let itemadisplayname;
+let item displayname;
+let item displayname;
+let item displayname;
+let item displayname;
+let item displayname;
+let item displayname;
+let item displayname;
+let item displayname;
+let item displayname;
+
 let itemadisplaynumber;
+let item displaynumber;
+let item displaynumber;
+let item displaynumber;
+let item displaynumber;
+let item displaynumber;
+let item displaynumber;
+let item displaynumber;
+let item displaynumber;
+let item displaynumber;
 
 const itemadisplayrowel = document.getElementById('itemadisplayrowel');
-const itemadisplaynameel = document.getElementById('itemadisplaynameel');
-const itemadisplayamountel = document.getElementById('itemadisplayamountel');
+const item displayrowel = document.getElementById('item displayrowel');
+const item displayrowel = document.getElementById('item displayrowel');
+const item displayrowel = document.getElementById('item displayrowel');
+const item displayrowel = document.getElementById('item displayrowel');
+const item displayrowel = document.getElementById('item displayrowel');
+const item displayrowel = document.getElementById('item displayrowel');
+const item displayrowel = document.getElementById('item displayrowel');
+const item displayrowel = document.getElementById('item displayrowel');
+const item displayrowel = document.getElementById('item displayrowel');
 
-// ITEM A VARIABLES END ////////////////////////////////////////////////////////////////////////////////
+const itemadisplaynameel = document.getElementById('itemadisplaynameel');
+const item displaynameel = document.getElementById('item displaynameel');
+const item displaynameel = document.getElementById('item displaynameel');
+const item displaynameel = document.getElementById('item displaynameel');
+const item displaynameel = document.getElementById('item displaynameel');
+const item displaynameel = document.getElementById('item displaynameel');
+const item displaynameel = document.getElementById('item displaynameel');
+const item displaynameel = document.getElementById('item displaynameel');
+const item displaynameel = document.getElementById('item displaynameel');
+const item displaynameel = document.getElementById('item displaynameel');
+
+const itemadisplayamountel = document.getElementById('itemadisplayamountel');
+const item displayamountel = document.getElementById('item displayamountel');
+const item displayamountel = document.getElementById('item displayamountel');
+const item displayamountel = document.getElementById('item displayamountel');
+const item displayamountel = document.getElementById('item displayamountel');
+const item displayamountel = document.getElementById('item displayamountel');
+const item displayamountel = document.getElementById('item displayamountel');
+const item displayamountel = document.getElementById('item displayamountel');
+const item displayamountel = document.getElementById('item displayamountel');
+const item displayamountel = document.getElementById('item displayamountel');
+
+
+// SETTINGS & DISPLAY VARIABLES END ////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 
 let counterrowa = 0;
