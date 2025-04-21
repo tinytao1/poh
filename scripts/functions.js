@@ -16,6 +16,69 @@ function displayitema() {
 	itemadisplayrowel.style.display = "block";
 	viewdivtitleel.style.display = "none";
 	}
+function displayitemb() {
+        itembtotal = counterrowb * Number(itembamountel.value);
+	itembdisplaynumberel.innerHTML = itembtotal;
+	itembdisplaynameel.innerHTML = itemnameel.value;
+	itembdisplayrowel.style.display = "block";
+	viewdivtitleel.style.display = "none";
+	}
+function displayitem() {
+        itemctotal = counterrowc * Number(itemcamountel.value);
+	itemcdisplaynumberel.innerHTML = itemctotal;
+	itemcdisplaynameel.innerHTML = itemcnameel.value;
+	itemcdisplayrowel.style.display = "block";
+	viewdivtitleel.style.display = "none";
+	}
+function displayitem() {
+        itemdtotal = counterrowd * Number(itemdamountel.value);
+	itemddisplaynumberel.innerHTML = itemdtotal;
+	itemddisplaynameel.innerHTML = itemdnameel.value;
+	itemddisplayrowel.style.display = "block";
+	viewdivtitleel.style.display = "none";
+	}
+function displayiteme() {
+        itemetotal = counterrowe * Number(itemeamountel.value);
+	itemedisplaynumberel.innerHTML = itemetotal;
+	itemedisplaynameel.innerHTML = itemenameel.value;
+	itemedisplayrowel.style.display = "block";
+	viewdivtitleel.style.display = "none";
+	}
+function displayitemf() {
+        itemftotal = counterrowf * Number(itemfamountel.value);
+	itemfdisplaynumberel.innerHTML = itemftotal;
+	itemfdisplaynameel.innerHTML = itemfnameel.value;
+	itemfdisplayrowel.style.display = "block";
+	viewdivtitleel.style.display = "none";
+	}
+function displayitemg() {
+        itemgtotal = counterrowg * Number(itemgamountel.value);
+	itemgdisplaynumberel.innerHTML = itemgtotal;
+	itemgdisplaynameel.innerHTML = itemgnameel.value;
+	itemgdisplayrowel.style.display = "block";
+	viewdivtitleel.style.display = "none";
+	}
+function displayitemh() {
+        itemhtotal = counterrowh * Number(itemhamountel.value);
+	itemhdisplaynumberel.innerHTML = itemhtotal;
+	itemhdisplaynameel.innerHTML = itemhnameel.value;
+	itemhdisplayrowel.style.display = "block";
+	viewdivtitleel.style.display = "none";
+	}
+function displayitemi() {
+        itemitotal = counterrowi * Number(itemiamountel.value);
+	itemidisplaynumberel.innerHTML = itemitotal;
+	itemidisplaynameel.innerHTML = iteminameel.value;
+	itemidisplayrowel.style.display = "block";
+	viewdivtitleel.style.display = "none";
+	}
+function displayitemj() {
+        itemjtotal = counterrowj * Number(itemjamountel.value);
+	itemjdisplaynumberel.innerHTML = itemjtotal;
+	itemjdisplaynameel.innerHTML = itemjnameel.value;
+	itemjdisplayrowel.style.display = "block";
+	viewdivtitleel.style.display = "none";
+	}
 
 
 function getrowatotal() {
