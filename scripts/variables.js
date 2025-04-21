@@ -22,6 +22,7 @@ let itemjtotal = 0;
 let itemadisplayname;
 let itemadisplaynumber;
 
+const itemadisplayrowel = document.getElementById('itemadisplayrowel');
 const itemadisplaynameel = document.getElementById('itemadisplaynameel');
 const itemadisplayamountel = document.getElementById('itemadisplayamountel');
 
