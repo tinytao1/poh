@@ -23,14 +23,14 @@ function displayitemb() {
 	itembdisplayrowel.style.display = "block";
 	viewdivtitleel.style.display = "none";
 	}
-function displayitem() {
+function displayitemc() {
         itemctotal = counterrowc * Number(itemcamountel.value);
 	itemcdisplaynumberel.innerHTML = itemctotal;
 	itemcdisplaynameel.innerHTML = itemcnameel.value;
 	itemcdisplayrowel.style.display = "block";
 	viewdivtitleel.style.display = "none";
 	}
-function displayitem() {
+function displayitemd() {
         itemdtotal = counterrowd * Number(itemdamountel.value);
 	itemddisplaynumberel.innerHTML = itemdtotal;
 	itemddisplaynameel.innerHTML = itemdnameel.value;
