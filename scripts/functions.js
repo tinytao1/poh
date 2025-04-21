@@ -19,7 +19,7 @@ function displayitema() {
 function displayitemb() {
         itembtotal = counterrowb * Number(itembamountel.value);
 	itembdisplaynumberel.innerHTML = itembtotal;
-	itembdisplaynameel.innerHTML = itemnameel.value;
+	itembdisplaynameel.innerHTML = itembnameel.value;
 	itembdisplayrowel.style.display = "block";
 	viewdivtitleel.style.display = "none";
 	}
