@@ -284,6 +284,15 @@ function uncheckallloop() {
 			getrowjtotal();
 			viewdivtitleel.style.display = 'block';
 			itemadisplayrowel.style.display = "none";
+			itembdisplayrowel.style.display = "none";
+			itemcdisplayrowel.style.display = "none";
+			itemddisplayrowel.style.display = "none";
+			itemedisplayrowel.style.display = "none";
+			itemfdisplayrowel.style.display = "none";
+			itemgdisplayrowel.style.display = "none";
+			itemhdisplayrowel.style.display = "none";
+			itemidisplayrowel.style.display = "none";
+			itemjdisplayrowel.style.display = "none";
 			// calculateproducetotal();
 		}}}
 function calculateproducetotal() {
