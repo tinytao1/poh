@@ -123,7 +123,7 @@ function getrowjtotal() {
 }
 
 
-function checkbox1of6(id1,id2,id3,id4,id5,id6,counterrow,counterrowel) {
+function checkbox1of6(id1,id2,id3,id4,id5,id6,counterrow,counterrowel,itemdisplayrowel) {
 	if (id1.checked == true) {
 		counterrow = 1;
 		counterrowel.innerHTML = counterrow;
@@ -141,10 +141,11 @@ function checkbox1of6(id1,id2,id3,id4,id5,id6,counterrow,counterrowel) {
 	} else {
 		counterrow=0;
 		counterrowel.innerHTML = counterrow;
+		itemdisplayrowel.style.display = "none";
 		return counterrow;
 	}}
 
-function checkbox2of6(id1,id2,id3,id4,id5,id6,counterrow,counterrowel) {
+function checkbox2of6(id1,id2,id3,id4,id5,id6,counterrow,counterrowel,itemdisplayrowel) {
 	if (id2.checked == true) {
 		id1.checked = true;
 		counterrow=2;
@@ -163,10 +164,11 @@ function checkbox2of6(id1,id2,id3,id4,id5,id6,counterrow,counterrowel) {
 		counterrow = 0;
 		id1.checked = false;
 		counterrowel.innerHTML = counterrow;
+		itemdisplayrowel.style.display = "none";
 		return counterrow;
 	}}
 
-function checkbox3of6(id1,id2,id3,id4,id5,id6,counterrow,counterrowel) {
+function checkbox3of6(id1,id2,id3,id4,id5,id6,counterrow,counterrowel,itemdisplayrowel) {
 	if (id3.checked == true) {
 		counterrow=3;
 		id1.checked = true;
@@ -186,9 +188,10 @@ function checkbox3of6(id1,id2,id3,id4,id5,id6,counterrow,counterrowel) {
 		id1.checked = false;
 		id2.checked = false; 
 		counterrowel.innerHTML = counterrow;
+		itemdisplayrowel.style.display = "none";
 		return counterrow;
 	}}
-function checkbox4of6(id1,id2,id3,id4,id5,id6,counterrow,counterrowel) {
+function checkbox4of6(id1,id2,id3,id4,id5,id6,counterrow,counterrowel,itemdisplayrowel) {
 	if (id4.checked == true) {
 		counterrow=4;
 		id1.checked = true;
@@ -209,9 +212,10 @@ function checkbox4of6(id1,id2,id3,id4,id5,id6,counterrow,counterrowel) {
 		id2.checked = false;
 		id3.checked = false;
 		counterrowel.innerHTML = counterrow;
+		itemdisplayrowel.style.display = "none";
 		return counterrow;
 	}}
-function checkbox5of6(id1,id2,id3,id4,id5,id6,counterrow,counterrowel) {
+function checkbox5of6(id1,id2,id3,id4,id5,id6,counterrow,counterrowel,itemdisplayrowel) {
 	if (id5.checked == true) {
 		counterrow=5;
 		id1.checked = true;
@@ -233,9 +237,10 @@ function checkbox5of6(id1,id2,id3,id4,id5,id6,counterrow,counterrowel) {
 		id3.checked = false;
 		id4.checked = false;
 		counterrowel.innerHTML = counterrow;
+		itemdisplayrowel.style.display = "none";
 		return counterrow;
 	}}
-function checkbox6of6(id1,id2,id3,id4,id5,id6,counterrow,counterrowel) {
+function checkbox6of6(id1,id2,id3,id4,id5,id6,counterrow,counterrowel,itemdisplayrowel) {
 	if (id6.checked == true) {
 		counterrow=6;
 		id1.checked = true;
@@ -253,6 +258,7 @@ function checkbox6of6(id1,id2,id3,id4,id5,id6,counterrow,counterrowel) {
 		id4.checked = false;
 		id5.checked = false;
 		counterrowel.innerHTML = counterrow;
+		itemdisplayrowel.style.display = "none";
 		return counterrow;
 	}}
 
