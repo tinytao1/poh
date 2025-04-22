@@ -30,3 +30,8 @@ input[type='checkbox'] {
 #btns-btm-row-div {
     padding-bottom:18px;
 }
+.viewdivwrapper {
+        padding-top: 25px;
+        padding-bottom: 25px;
+     }
+
