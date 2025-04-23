@@ -34,7 +34,7 @@ input[type='checkbox'] {
         padding-top: 25px;
         padding-bottom: 25px;
      }
-.display3rem {
-  font-size: 27px;
+.display3remNO {
+  font-size: ; /*27px */
 }
 
