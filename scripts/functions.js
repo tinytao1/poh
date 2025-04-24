@@ -12,70 +12,70 @@ Display. itemadisplaynameel, itemadisplaynumberel
 function displayitema() {
         itematotal = counterrowa * Number(itemaamountel.value);
 	itemadisplaynumberel.innerHTML = `<strong>${itematotal}</strong>`;  
-	itemadisplaynameel.innerHTML = itemanameel.value;
+	itemadisplaynameel.innerHTML = `<strong>${itemanameel.value}</strong>`;
 	itemadisplayrowel.style.display = "block";
 	viewdivtitleel.style.display = "none";
 	}
 function displayitemb() {
         itembtotal = counterrowb * Number(itembamountel.value);
 	itembdisplaynumberel.innerHTML = `<strong>${itembtotal}</strong>`;
-	itembdisplaynameel.innerHTML = itembnameel.value;
+	itembdisplaynameel.innerHTML = `<strong>${itembnameel.value}</strong>`;
 	itembdisplayrowel.style.display = "block";
 	viewdivtitleel.style.display = "none";
 	}
 function displayitemc() {
         itemctotal = counterrowc * Number(itemcamountel.value);
 	itemcdisplaynumberel.innerHTML = `<strong>${itemctotal}</strong>`;
-	itemcdisplaynameel.innerHTML = itemcnameel.value;
+	itemcdisplaynameel.innerHTML = `<strong>${itemcnameel.value}</strong>`;
 	itemcdisplayrowel.style.display = "block";
 	viewdivtitleel.style.display = "none";
 	}
 function displayitemd() {
         itemdtotal = counterrowd * Number(itemdamountel.value);
 	itemddisplaynumberel.innerHTML = `<strong>${itemdtotal}</strong>`;
-	itemddisplaynameel.innerHTML = itemdnameel.value;
+	itemddisplaynameel.innerHTML = `<strong>${itemdnameel.value}</strong>`;
 	itemddisplayrowel.style.display = "block";
 	viewdivtitleel.style.display = "none";
 	}
 function displayiteme() {
         itemetotal = counterrowe * Number(itemeamountel.value);
 	itemedisplaynumberel.innerHTML = `<strong>${itemetotal}</strong>`;
-	itemedisplaynameel.innerHTML = itemenameel.value;
+	itemedisplaynameel.innerHTML = `<strong>${itemenameel.value}</strong>`;
 	itemedisplayrowel.style.display = "block";
 	viewdivtitleel.style.display = "none";
 	}
 function displayitemf() {
         itemftotal = counterrowf * Number(itemfamountel.value);
 	itemfdisplaynumberel.innerHTML = `<strong>${itemftotal}</strong>`;
-	itemfdisplaynameel.innerHTML = itemfnameel.value;
+	itemfdisplaynameel.innerHTML = `<strong>${itemfnameel.value}</strong>`;
 	itemfdisplayrowel.style.display = "block";
 	viewdivtitleel.style.display = "none";
 	}
 function displayitemg() {
         itemgtotal = counterrowg * Number(itemgamountel.value);
 	itemgdisplaynumberel.innerHTML = `<strong>${itemgtotal}</strong>`;
-	itemgdisplaynameel.innerHTML = itemgnameel.value;
+	itemgdisplaynameel.innerHTML = `<strong>${itemgnameel.value}</strong>`;
 	itemgdisplayrowel.style.display = "block";
 	viewdivtitleel.style.display = "none";
 	}
 function displayitemh() {
         itemhtotal = counterrowh * Number(itemhamountel.value);
 	itemhdisplaynumberel.innerHTML = `<strong>${itemhtotal}</strong>`;
-	itemhdisplaynameel.innerHTML = itemhnameel.value;
+	itemhdisplaynameel.innerHTML = `<strong>${itemhnameel.value}</strong>`;
 	itemhdisplayrowel.style.display = "block";
 	viewdivtitleel.style.display = "none";
 	}
 function displayitemi() {
         itemitotal = counterrowi * Number(itemiamountel.value);
 	itemidisplaynumberel.innerHTML = `<strong>${itemitotal}</strong>`;
-	itemidisplaynameel.innerHTML = iteminameel.value;
+	itemidisplaynameel.innerHTML = `<strong>${iteminameel.value}</strong>`;
 	itemidisplayrowel.style.display = "block";
 	viewdivtitleel.style.display = "none";
 	}
 function displayitemj() {
         itemjtotal = counterrowj * Number(itemjamountel.value);
 	itemjdisplaynumberel.innerHTML = `<strong>${itemjtotal}</strong>`;
-	itemjdisplaynameel.innerHTML = itemjnameel.value;
+	itemjdisplaynameel.innerHTML = `<strong>${itemjnameel.value}</strong>`;
 	itemjdisplayrowel.style.display = "block";
 	viewdivtitleel.style.display = "none";
 	}
