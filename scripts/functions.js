@@ -54,7 +54,7 @@ function displayitemf() {
 function displayitemg() {
         itemgtotal = counterrowg * Number(itemgamountel.value);
 	itemgdisplaynumberel.innerHTML = `<strong>${itemgtotal}</strong>`;
-	itemgdisplaynameel.innerHTML = itemfnameel.value;
+	itemgdisplaynameel.innerHTML = itemgnameel.value;
 	itemgdisplayrowel.style.display = "block";
 	viewdivtitleel.style.display = "none";
 	}
