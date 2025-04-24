@@ -11,71 +11,71 @@ Display. itemadisplaynameel, itemadisplaynumberel
 */
 function displayitema() {
         itematotal = counterrowa * Number(itemaamountel.value);
-	itemadisplaynumberel.innerHTML = itematotal;
-	itemadisplaynameel.innerHTML = itemanameel.value;
+	itemadisplaynumberel.innerHTML = `<strong>${itematotal}</strong>`;  
+	itemadisplaynameel.innerHTML = `<strong>${itemanameel}</strong>`;
 	itemadisplayrowel.style.display = "block";
 	viewdivtitleel.style.display = "none";
 	}
 function displayitemb() {
         itembtotal = counterrowb * Number(itembamountel.value);
-	itembdisplaynumberel.innerHTML = itembtotal;
-	itembdisplaynameel.innerHTML = itembnameel.value;
+	itembdisplaynumberel.innerHTML = `<strong>${itembtotal}</strong>`;
+	itembdisplaynameel.innerHTML = `<strong>${itembnameel}</strong>`;
 	itembdisplayrowel.style.display = "block";
 	viewdivtitleel.style.display = "none";
 	}
 function displayitemc() {
         itemctotal = counterrowc * Number(itemcamountel.value);
-	itemcdisplaynumberel.innerHTML = itemctotal;
-	itemcdisplaynameel.innerHTML = itemcnameel.value;
+	itemcdisplaynumberel.innerHTML = `<strong>${itemctotal}</strong>`;
+	itemcdisplaynameel.innerHTML = `<strong>${itemcnameel}</strong>`;
 	itemcdisplayrowel.style.display = "block";
 	viewdivtitleel.style.display = "none";
 	}
 function displayitemd() {
         itemdtotal = counterrowd * Number(itemdamountel.value);
-	itemddisplaynumberel.innerHTML = itemdtotal;
-	itemddisplaynameel.innerHTML = itemdnameel.value;
+	itemddisplaynumberel.innerHTML = `<strong>${itemdtotal}</strong>`;
+	itemddisplaynameel.innerHTML = `<strong>${itemdnameel}</strong>`;
 	itemddisplayrowel.style.display = "block";
 	viewdivtitleel.style.display = "none";
 	}
 function displayiteme() {
         itemetotal = counterrowe * Number(itemeamountel.value);
-	itemedisplaynumberel.innerHTML = itemetotal;
-	itemedisplaynameel.innerHTML = itemenameel.value;
+	itemedisplaynumberel.innerHTML = `<strong>${itemetotal}</strong>`;
+	itemedisplaynameel.innerHTML = `<strong>${itemenameel}</strong>`;
 	itemedisplayrowel.style.display = "block";
 	viewdivtitleel.style.display = "none";
 	}
 function displayitemf() {
         itemftotal = counterrowf * Number(itemfamountel.value);
-	itemfdisplaynumberel.innerHTML = itemftotal;
-	itemfdisplaynameel.innerHTML = itemfnameel.value;
+	itemfdisplaynumberel.innerHTML = `<strong>${itemftotal}</strong>`;
+	itemfdisplaynameel.innerHTML = `<strong>${itemfnameel}</strong>`;
 	itemfdisplayrowel.style.display = "block";
 	viewdivtitleel.style.display = "none";
 	}
 function displayitemg() {
         itemgtotal = counterrowg * Number(itemgamountel.value);
-	itemgdisplaynumberel.innerHTML = itemgtotal;
-	itemgdisplaynameel.innerHTML = itemgnameel.value;
+	itemgdisplaynumberel.innerHTML = `<strong>${itemgtotal}</strong>`;
+	itemgdisplaynameel.innerHTML = `<strong>${itemgnameel}</strong>`;
 	itemgdisplayrowel.style.display = "block";
 	viewdivtitleel.style.display = "none";
 	}
 function displayitemh() {
         itemhtotal = counterrowh * Number(itemhamountel.value);
-	itemhdisplaynumberel.innerHTML = itemhtotal;
-	itemhdisplaynameel.innerHTML = itemhnameel.value;
+	itemhdisplaynumberel.innerHTML = `<strong>${itemhtotal}</strong>`;
+	itemhdisplaynameel.innerHTML = `<strong>${itemhnameel}</strong>`;
 	itemhdisplayrowel.style.display = "block";
 	viewdivtitleel.style.display = "none";
 	}
 function displayitemi() {
         itemitotal = counterrowi * Number(itemiamountel.value);
-	itemidisplaynumberel.innerHTML = itemitotal;
-	itemidisplaynameel.innerHTML = iteminameel.value;
+	itemidisplaynumberel.innerHTML = `<strong>${itemitotal}</strong>`;
+	itemidisplaynameel.innerHTML = `<strong>${iteminameel}</strong>`;
 	itemidisplayrowel.style.display = "block";
 	viewdivtitleel.style.display = "none";
 	}
 function displayitemj() {
         itemjtotal = counterrowj * Number(itemjamountel.value);
-	itemjdisplaynumberel.innerHTML = itemjtotal;
-	itemjdisplaynameel.innerHTML = itemjnameel.value;
+	itemjdisplaynumberel.innerHTML = `<strong>${itemjtotal}</strong>`;
+	itemjdisplaynameel.innerHTML = `<strong>${itemjnameel}</strong>`;
 	itemjdisplayrowel.style.display = "block";
 	viewdivtitleel.style.display = "none";
 	}
