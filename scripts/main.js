@@ -1,7 +1,7 @@
 "use strict";
 
-let CDS = 'April 24 2025';
 let CTS = 'Thursday 3:22 PM';
+let CDS = 'April 24 2025';
 
 document.getElementById('committed')
 .innerHTML = `version: ${CTS}<br />${CDS}.`;
