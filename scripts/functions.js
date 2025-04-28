@@ -1,14 +1,6 @@
 "use strict";
-/* function displayitem(counterrow, itemamount) {
-         itemtotal = counterrow * itemamaount;
-	} */
 
-/* POH
-A. itemanameel, itemaamaountel
-A. Checkboxes
-Display. viewdivtitleel
-Display. itemadisplaynameel, itemadisplaynumberel
-*/
+
 function displayitema() {
         itematotal = counterrowa * Number(itemaamountel.value);
 	itemadisplaynumberel.innerHTML = itematotal; //`<strong>${itematotal}</strong>`;  
@@ -74,7 +66,7 @@ function displayitemi() {
 	}
 function displayitemj() {
         itemjtotal = counterrowj * Number(itemjamountel.value);
-	itemjdisplaynumberel.innerHTML = itemjnameel.value;  // `<strong>${itemjtotal}</strong>`;
+	itemjdisplaynumberel.innerHTML = itemjtotal;  // `<strong>${itemjtotal}</strong>`;
 	itemjdisplaynameel.innerHTML = itemjnameel.value; // `<strong>${itemjnameel.value}</strong>`;
 	itemjdisplayrowel.style.display = "block";
 	viewdivtitleel.style.display = "none";
