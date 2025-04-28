@@ -38,8 +38,6 @@ a6.addEventListener('change', function() {
 	displayitema();
 } )
 
-// BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
-
 b1.addEventListener('change', function() {
 	checkbox1of6(...rowbarray);
 	calculateproducetotal();
@@ -76,6 +74,7 @@ b6.addEventListener('change', function() {
 	getrowbtotal();
 	displayitemb();
 } )
+
 c1.addEventListener('change', function() {
 	checkbox1of6(...rowcarray);
 	calculateproducetotal();
@@ -112,6 +111,7 @@ c6.addEventListener('change', function() {
 	getrowctotal();
 	displayitemc();
 } )
+
 d1.addEventListener('change', function() {
 	checkbox1of6(...rowdarray);
 	calculateproducetotal();
@@ -148,6 +148,7 @@ d6.addEventListener('change', function() {
 	getrowdtotal();
 	displayitemd();
 } )
+
 e1.addEventListener('change', function() {
 	checkbox1of6(...rowearray);
 	calculateproducetotal();
@@ -184,6 +185,7 @@ e6.addEventListener('change', function() {
 	getrowetotal();
 	displayiteme();
 } )
+
 f1.addEventListener('change', function() {
 	checkbox1of6(...rowfarray);
 	calculateproducetotal();
@@ -220,6 +222,7 @@ f6.addEventListener('change', function() {
 	getrowftotal();
 	displayitemf();
 } )
+
 g1.addEventListener('change', function() {
 	checkbox1of6(...rowgarray);
 	calculateproducetotal();
@@ -256,6 +259,7 @@ g6.addEventListener('change', function() {
 	getrowgtotal();
 	displayitemg();
 } )
+
 h1.addEventListener('change', function() {
 	checkbox1of6(...rowharray);
 	calculateproducetotal();
@@ -292,6 +296,7 @@ h6.addEventListener('change', function() {
 	getrowhtotal();
 	displayitemh();
 } )
+
 i1.addEventListener('change', function() {
 	checkbox1of6(...rowiarray);
 	calculateproducetotal();
@@ -328,6 +333,7 @@ i6.addEventListener('change', function() {
 	getrowitotal();
 	displayitemi();
 } )
+
 j1.addEventListener('change', function() {
 	checkbox1of6(...rowjarray);
 	calculateproducetotal(); 
