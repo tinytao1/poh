@@ -1,28 +1,59 @@
 "use strict";
 
-// SETTINGS & DISPLAY VARIABLES BEGIN ////////////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////////////////////////////////
-let itemaname;
-let itembname;
-let itemcname;
-let itemdname;
-let itemename;
-let itemfname;
-let itemgname;
-let itemhname;
-let iteminame;
-let itemjname;
+let itemaname,
+  itembname,
+  itemcname,
+  itemdname,
+  itemename,
+  itemfname,
+  itemgname,
+  itemhname,
+  iteminame,
+  itemjname;
 
-let itemaamount;
-let itembamount;
-let itemcamount;
-let itemdamount;
-let itemeamount;
-let itemfamount;
-let itemgamount;
-let itemhamount;
-let itemiamount;
-let itemjamount;
+let itemaamount,
+  itembamount,
+  itemcamount,
+  itemdamount,
+  itemeamount,
+  itemfamount,
+  itemgamount,
+  itemhamount,
+  itemiamount,
+  itemjamount;
+
+let itematotal,
+  itembtotal, 
+  itemctotal,
+  itemdtotal,
+  itemetotal,
+  itemftotal, 
+  itemgtotal, 
+  itemhtotal, 
+  itemitotal, 
+  itemjtotal; 
+
+let itemadisplayname,
+  itembdisplayname,  
+  itemcdisplayname,
+  itemddisplayname,
+  itemedisplayname,
+  itemfdisplayname,
+  itemgdisplayname,
+  itemhdisplayname,
+  itemidisplayname,
+  itemjdisplayname;
+
+let itemadisplaynumber,
+  itembdisplaynumber,
+  itemcdisplaynumber,
+  itemddisplaynumber,
+  itemedisplaynumber,
+  itemfdisplaynumber,
+  itemgdisplaynumber,
+  itemhdisplaynumber,
+  itemidisplaynumber,
+  itemjdisplaynumber;
 
 const itemanameel = document.getElementById('itemanameel');
 const itembnameel = document.getElementById('itembnameel');
@@ -35,7 +66,6 @@ const itemhnameel = document.getElementById('itemhnameel');
 const iteminameel = document.getElementById('iteminameel');
 const itemjnameel = document.getElementById('itemjnameel');
 
-
 const itemaamountel = document.getElementById('itemaamountel');
 const itembamountel = document.getElementById('itembamountel');
 const itemcamountel = document.getElementById('itemcamountel');
@@ -46,39 +76,6 @@ const itemgamountel = document.getElementById('itemgamountel');
 const itemhamountel = document.getElementById('itemhamountel');
 const itemiamountel = document.getElementById('itemiamountel');
 const itemjamountel = document.getElementById('itemjamountel');
-
-let itematotal = 0;
-let itembtotal = 0;
-let itemctotal = 0;
-let itemdtotal = 0;
-let itemetotal = 0;
-let itemftotal = 0;
-let itemgtotal = 0;
-let itemhtotal = 0;
-let itemitotal = 0;
-let itemjtotal = 0;
-
-let itemadisplayname;
-let itembdisplayname;
-let itemcdisplayname;
-let itemddisplayname;
-let itemedisplayname;
-let itemfdisplayname;
-let itemgdisplayname;
-let itemhdisplayname;
-let itemidisplayname;
-let itemjdisplayname;
-
-let itemadisplaynumber;
-let itembdisplaynumber;
-let itemcdisplaynumber;
-let itemddisplaynumber;
-let itemedisplaynumber;
-let itemfdisplaynumber;
-let itemgdisplaynumber;
-let itemhdisplaynumber;
-let itemidisplaynumber;
-let itemjdisplaynumber;
 
 const itemadisplayrowel = document.getElementById('itemadisplayrowel');
 const itembdisplayrowel = document.getElementById('itembdisplayrowel');
@@ -113,9 +110,7 @@ const itemhdisplayamountel = document.getElementById('itemhdisplayamountel');
 const itemidisplayamountel = document.getElementById('itemidisplayamountel');
 const itemjdisplayamountel = document.getElementById('itemjdisplayamountel');
 
-
-// SETTINGS & DISPLAY VARIABLES END ////////////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////////////////////////////////
+// SETTINGS & DISPLAY VARIABLES END 
 
 let counterrowa = 0;
 let counterrowb = 0;
@@ -139,7 +134,6 @@ const counterrowhel = document.getElementById('counterrowhel');
 const counterrowiel = document.getElementById('counterrowiel');
 const counterrowjel = document.getElementById('counterrowjel');
 
-
 let counterproducetotal = 0;
                         
 const counterproducetotalel = document.getElementById('counterproducetotalel');
@@ -147,6 +141,20 @@ const counterproducetotalel = document.getElementById('counterproducetotalel');
 // Buttons UNCHECK All, top & bottom
 const uncheckalltop = document.getElementById('uncheckalltop');
 const uncheckallbtm = document.getElementById('uncheckallbtm');
+
+const rowaarray = [a1, a2, a3, a4, a5, a6, counterrowa, counterrowael, itemadisplayrowel];
+const rowbarray = [b1, b2, b3, b4, b5, b6, counterrowb, counterrowbel, itembdisplayrowel];
+const rowcarray = [c1, c2, c3, c4, c5, c6, counterrowc, counterrowcel, itemcdisplayrowel];
+const rowdarray = [d1, d2, d3, d4, d5, d6, counterrowd, counterrowdel, itemddisplayrowel];
+const rowearray = [e1, e2, e3, e4, e5, e6, counterrowe, counterroweel, itemedisplayrowel];
+const rowfarray = [f1, f2, f3, f4, f5, f6, counterrowf, counterrowfel, itemfdisplayrowel];
+const rowgarray = [g1, g2, g3, g4, g5, g6, counterrowg, counterrowgel, itemgdisplayrowel];
+const rowharray = [h1, h2, h3, h4, h5, h6, counterrowh, counterrowhel, itemhdisplayrowel];
+const rowiarray = [i1, i2, i3, i4, i5, i6, counterrowi, counterrowiel, itemidisplayrowel];
+const rowjarray = [j1, j2, j3, j4, j5, j6, counterrowj, counterrowjel, itemjdisplayrowel];
+const allcheckboxesarray = [a1, a2, a3, a4, a5, a6, b1, b2, b3, b4, b5, b6, c1, c2, c3, c4, c5, c6, d1, d2, d3, d4, d5, d6, e1, e2, e3, e4, e5, e6, f1, f2, f3, f4, f5, f6, g1, g2, g3, g4, g5, g6, h1, h2, h3, h4, h5, h6, i1, i2, i3, i4, i5, i6, j1, j2, j3, j4, j5, j6];
+
+let viewdivtitleel = document.getElementById('viewdivtitleel');
 
 // A-1 thru J-10 checkbox rows A- J 
 const a1 = document.getElementById('a1');
@@ -218,37 +226,3 @@ const j3 = document.getElementById('j3');
 const j4 = document.getElementById('j4');
 const j5 = document.getElementById('j5');
 const j6 = document.getElementById('j6');
-
-const rowaarray = [a1, a2, a3, a4, a5, a6, counterrowa, counterrowael, itemadisplayrowel];
-const rowbarray = [b1, b2, b3, b4, b5, b6, counterrowb, counterrowbel, itembdisplayrowel];
-const rowcarray = [c1, c2, c3, c4, c5, c6, counterrowc, counterrowcel, itemcdisplayrowel];
-const rowdarray = [d1, d2, d3, d4, d5, d6, counterrowd, counterrowdel, itemddisplayrowel];
-const rowearray = [e1, e2, e3, e4, e5, e6, counterrowe, counterroweel, itemedisplayrowel];
-const rowfarray = [f1, f2, f3, f4, f5, f6, counterrowf, counterrowfel, itemfdisplayrowel];
-const rowgarray = [g1, g2, g3, g4, g5, g6, counterrowg, counterrowgel, itemgdisplayrowel];
-const rowharray = [h1, h2, h3, h4, h5, h6, counterrowh, counterrowhel, itemhdisplayrowel];
-const rowiarray = [i1, i2, i3, i4, i5, i6, counterrowi, counterrowiel, itemidisplayrowel];
-const rowjarray = [j1, j2, j3, j4, j5, j6, counterrowj, counterrowjel, itemjdisplayrowel];
-const allcheckboxesarray = [a1, a2, a3, a4, a5, a6, b1, b2, b3, b4, b5, b6, c1, c2, c3, c4, c5, c6, d1, d2, d3, d4, d5, d6, e1, e2, e3, e4, e5, e6, f1, f2, f3, f4, f5, f6, g1, g2, g3, g4, g5, g6, h1, h2, h3, h4, h5, h6, i1, i2, i3, i4, i5, i6, j1, j2, j3, j4, j5, j6];
-
-let viewdivtitleel = document.getElementById('viewdivtitleel');
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
