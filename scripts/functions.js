@@ -25,57 +25,57 @@ function displayitemb() {
 	}
 function displayitemc() {
         itemctotal = counterrowc * Number(itemcamountel.value);
-	itemcdisplaynumberel.innerHTML = `<strong>${itemctotal}</strong>`;
-	itemcdisplaynameel.innerHTML = `<strong>${itemcnameel.value}</strong>`;
+	itemcdisplaynumberel.innerHTML = itemctotal; // `<strong>${itemctotal}</strong>`;
+	itemcdisplaynameel.innerHTML = itemcnameel.value; // `<strong>${itemcnameel.value}</strong>`;
 	itemcdisplayrowel.style.display = "block";
 	viewdivtitleel.style.display = "none";
 	}
 function displayitemd() {
         itemdtotal = counterrowd * Number(itemdamountel.value);
-	itemddisplaynumberel.innerHTML = `<strong>${itemdtotal}</strong>`;
-	itemddisplaynameel.innerHTML = `<strong>${itemdnameel.value}</strong>`;
+	itemddisplaynumberel.innerHTML = itemdtotal; // `<strong>${itemdtotal}</strong>`;
+	itemddisplaynameel.innerHTML = itemdnameel.value; // `<strong>${itemdnameel.value}</strong>`;
 	itemddisplayrowel.style.display = "block";
 	viewdivtitleel.style.display = "none";
 	}
 function displayiteme() {
         itemetotal = counterrowe * Number(itemeamountel.value);
-	itemedisplaynumberel.innerHTML = `<strong>${itemetotal}</strong>`;
-	itemedisplaynameel.innerHTML = `<strong>${itemenameel.value}</strong>`;
+	itemedisplaynumberel.innerHTML = itemetotal; // `<strong>${itemetotal}</strong>`;
+	itemedisplaynameel.innerHTML = itemenameel.value; // `<strong>${itemenameel.value}</strong>`;
 	itemedisplayrowel.style.display = "block";
 	viewdivtitleel.style.display = "none";
 	}
 function displayitemf() {
         itemftotal = counterrowf * Number(itemfamountel.value);
-	itemfdisplaynumberel.innerHTML = `<strong>${itemftotal}</strong>`;
-	itemfdisplaynameel.innerHTML = `<strong>${itemfnameel.value}</strong>`;
+	itemfdisplaynumberel.innerHTML = itemftotal; // `<strong>${itemftotal}</strong>`;
+	itemfdisplaynameel.innerHTML = itemfnameel.value; // `<strong>${itemfnameel.value}</strong>`;
 	itemfdisplayrowel.style.display = "block";
 	viewdivtitleel.style.display = "none";
 	}
 function displayitemg() {
         itemgtotal = counterrowg * Number(itemgamountel.value);
-	itemgdisplaynumberel.innerHTML = `<strong>${itemgtotal}</strong>`;
-	itemgdisplaynameel.innerHTML = `<strong>${itemgnameel.value}</strong>`;
+	itemgdisplaynumberel.innerHTML = itemgtotal; // `<strong>${itemgtotal}</strong>`;
+	itemgdisplaynameel.innerHTML = itemgnameel.value;  // `<strong>${itemgnameel.value}</strong>`;
 	itemgdisplayrowel.style.display = "block";
 	viewdivtitleel.style.display = "none";
 	}
 function displayitemh() {
         itemhtotal = counterrowh * Number(itemhamountel.value);
-	itemhdisplaynumberel.innerHTML = `<strong>${itemhtotal}</strong>`;
-	itemhdisplaynameel.innerHTML = `<strong>${itemhnameel.value}</strong>`;
+	itemhdisplaynumberel.innerHTML = itemhtotal;  // `<strong>${itemhtotal}</strong>`;
+	itemhdisplaynameel.innerHTML = itemhnameel.value;  //`<strong>${itemhnameel.value}</strong>`;
 	itemhdisplayrowel.style.display = "block";
 	viewdivtitleel.style.display = "none";
 	}
 function displayitemi() {
         itemitotal = counterrowi * Number(itemiamountel.value);
-	itemidisplaynumberel.innerHTML = `<strong>${itemitotal}</strong>`;
-	itemidisplaynameel.innerHTML = `<strong>${iteminameel.value}</strong>`;
+	itemidisplaynumberel.innerHTML = itemitotal;  // `<strong>${itemitotal}</strong>`;
+	itemidisplaynameel.innerHTML = iteminameel.value; // `<strong>${iteminameel.value}</strong>`;
 	itemidisplayrowel.style.display = "block";
 	viewdivtitleel.style.display = "none";
 	}
 function displayitemj() {
         itemjtotal = counterrowj * Number(itemjamountel.value);
-	itemjdisplaynumberel.innerHTML = `<strong>${itemjtotal}</strong>`;
-	itemjdisplaynameel.innerHTML = `<strong>${itemjnameel.value}</strong>`;
+	itemjdisplaynumberel.innerHTML = itemjnameel.value;  // `<strong>${itemjtotal}</strong>`;
+	itemjdisplaynameel.innerHTML = itemjnameel.value; // `<strong>${itemjnameel.value}</strong>`;
 	itemjdisplayrowel.style.display = "block";
 	viewdivtitleel.style.display = "none";
 	}
