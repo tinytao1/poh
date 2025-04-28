@@ -11,15 +11,15 @@ Display. itemadisplaynameel, itemadisplaynumberel
 */
 function displayitema() {
         itematotal = counterrowa * Number(itemaamountel.value);
-	itemadisplaynumberel.innerHTML = `<strong>${itematotal}</strong>`;  
-	itemadisplaynameel.innerHTML = `<strong>${itemanameel.value}</strong>`;
+	itemadisplaynumberel.innerHTML = itematotal; //`<strong>${itematotal}</strong>`;  
+	itemadisplaynameel.innerHTML = itemanameel.value; //`<strong>${itemanameel.value}</strong>`;
 	itemadisplayrowel.style.display = "block";
 	viewdivtitleel.style.display = "none";
 	}
 function displayitemb() {
         itembtotal = counterrowb * Number(itembamountel.value);
-	itembdisplaynumberel.innerHTML = `<strong>${itembtotal}</strong>`;
-	itembdisplaynameel.innerHTML = `<strong>${itembnameel.value}</strong>`;
+	itembdisplaynumberel.innerHTML = itembtotal;  //`<strong>${itembtotal}</strong>`;
+	itembdisplaynameel.innerHTML = itembnameel.value; // `<strong>${itembnameel.value}</strong>`;
 	itembdisplayrowel.style.display = "block";
 	viewdivtitleel.style.display = "none";
 	}
