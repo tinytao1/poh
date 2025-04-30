@@ -34,6 +34,9 @@ input[type='checkbox'] {
         padding-top: 25px;
         padding-bottom: 25px;
      }
+.counterletter {
+  font-weight: 600;
+}
 .displayitem {
   font-size: 40px; /*27px */
   font-weight: 600;
