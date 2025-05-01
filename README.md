@@ -4,7 +4,7 @@ This app is meant to translate the letters and checkmarks of a grocery order int
 
 May 1, 2025.  
 This is my third coding project.  
-Here, for the first time, I have utilized a LOOP! And a corresponding ARRAY! FUN times!  
+Here, for the first time, I have utilized a loop, and a corresponding array - FUN times!  
 And I've gotten much more comfortable accessing, reading/writing, input elements.  
 A big challenge for me in this project was writing the conditional statements to give the checkbox rows their autofilling behaviors, which have several parts.  
 
