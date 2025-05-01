@@ -6,7 +6,7 @@ May 1, 2025.
 This is my third coding project.  
 Here, for the first time, I have utilized a loop, and a corresponding array - FUN times!  
 I've gotten much more comfortable accessing, reading/writing, input elements.  
-A big challenge for me in this project was writing the conditional statements to give the checkbox rows their autofilling behaviors, which have several aspects.  
+A big challenge for me in this project was writing the conditional statements to give the checkbox rows their autofilling behaviors, which have several aspects: a sort of "forward", "backward", "neutral", and "clear"/"uncheck" action.  
 
 Now that the webpage is working, when I look back on the build process I can see lots of room for improvement.  
 Repeating code: The code is repeating all over the place.  
