@@ -1,13 +1,25 @@
 "use strict";
 
 
+function displayitem(item_total, counterrow_, item_amountel, item_displaynumberel, item_displaynameel, item_nameel, item_displayrowel) {
+	item_total = counterrow_ * Number(item_amountel.value);
+	item_displaynumberel.innerHTML = item_total;
+	item_displaynameel.innerHTML = item_nameel.value;
+	item_displayrowel.style.display = "block";
+	viewdivtitleel.style.display = "none";
+}
+/*
+displayitem(itematotal, counterrowa, itemaamountel, itemadisplaynumberel, itemadisplaynameel, itemanameel, itemadisplayrowel)
+*/
+/*
 function displayitema() {
         itematotal = counterrowa * Number(itemaamountel.value);
-	itemadisplaynumberel.innerHTML = itematotal; //`<strong>${itematotal}</strong>`;  
-	itemadisplaynameel.innerHTML = itemanameel.value; //`<strong>${itemanameel.value}</strong>`;
+	itemadisplaynumberel.innerHTML = itematotal;
+	itemadisplaynameel.innerHTML = itemanameel.value;
 	itemadisplayrowel.style.display = "block";
 	viewdivtitleel.style.display = "none";
 	}
+ */
 function displayitemb() {
         itembtotal = counterrowb * Number(itembamountel.value);
 	itembdisplaynumberel.innerHTML = itembtotal;  //`<strong>${itembtotal}</strong>`;
