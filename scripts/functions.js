@@ -9,17 +9,16 @@ function displayitem(item_total, counterrow_, item_amountel, item_displaynumbere
 	viewdivtitleel.style.display = "none";
 }
 /*
-displayitem(itematotal, counterrowa, itemaamountel, itemadisplaynumberel, itemadisplaynameel, itemanameel, itemadisplayrowel)
+displayitem(itembtotal, counterrowb, itembamountel, itembdisplaynumberel, itembdisplaynameel, itembnameel, itembdisplayrowel)
+displayitem(itemctotal, counterrowc, itemcamountel, itemcdisplaynumberel, itemcdisplaynameel, itemcnameel, itemcdisplayrowel)    
+displayitem(itemdtotal, counterrowd, itemdamountel, itemddisplaynumberel, itemddisplaynameel, itemdnameel, itemddisplayrowel)
+displayitem(itemetotal, counterrowe, itemeamountel, itemedisplaynumberel, itemedisplaynameel, itemenameel, itemedisplayrowel)
+displayitem(itemftotal, counterrowf, itemfamountel, itemfdisplaynumberel, itemfdisplaynameel, itemfnameel, itemfdisplayrowel)
+displayitem(itemgtotal, counterrowg, itemgamountel, itemgdisplaynumberel, itemgdisplaynameel, itemgnameel, itemgdisplayrowel)
+displayitem(itemhtotal, counterrowh, itemhamountel, itemhdisplaynumberel, itemhdisplaynameel, itemhnameel, itemhdisplayrowel)
+displayitem(itemitotal, counterrowi, itemiamountel, itemidisplaynumberel, itemidisplaynameel, iteminameel, itemidisplayrowel)
+displayitem(itemjtotal, counterrowj, itemjamountel, itemjdisplaynumberel, itemjdisplaynameel, itemjnameel, itemjdisplayrowel)
 */
-/*
-function displayitema() {
-        itematotal = counterrowa * Number(itemaamountel.value);
-	itemadisplaynumberel.innerHTML = itematotal;
-	itemadisplaynameel.innerHTML = itemanameel.value;
-	itemadisplayrowel.style.display = "block";
-	viewdivtitleel.style.display = "none";
-	}
- */
 function displayitemb() {
         itembtotal = counterrowb * Number(itembamountel.value);
 	itembdisplaynumberel.innerHTML = itembtotal;  //`<strong>${itembtotal}</strong>`;
