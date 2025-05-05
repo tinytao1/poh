@@ -1,7 +1,6 @@
 "use strict";
 
 
-
 function displayitem(counterrow_, counterrow_el, item_total, item_amountel, item_displaynumberel, item_displaynameel, item_nameel, item_displayrowel) {
 	counterrow_ = Number(counterrow_el.innerHTML);
 	item_total = counterrow_ * Number(item_amountel.value);
@@ -10,45 +9,6 @@ function displayitem(counterrow_, counterrow_el, item_total, item_amountel, item
 	item_displayrowel.style.display = "block";
 	viewdivtitleel.style.display = "none";
 }
-
-/*
-function getrowtotal() {
-	counterrowa = Number(counterrowael.innerHTML);
-	return counterrowa;
-}
-
-function getrowatotal() {
-	counterrowa = Number(counterrowael.innerHTML);
-	return counterrowa;
-}
-
-function getrowbtotal() {
-	counterrowb = Number(counterrowbel.innerHTML);
-	return counterrowb;
-}
-function getrowctotal() {
-	counterrowc = Number(counterrowcel.innerHTML);
-	return counterrowc;
-}
-function getrowdtotal() {
-	counterrowd = Number(counterrowdel.innerHTML);
-	return counterrowd;
-}
-function getrowetotal() {
-	counterrowe = Number(counterroweel.innerHTML);
-	return counterrowe;
-}
-function getrowftotal() {
-	counterrowf = Number(counterrowfel.innerHTML);
-	return counterrowf;
-}
-function getrowgtotal() {
-	counterrowg = Number(counterrowgel.innerHTML);
-	return counterrowg;
-}
-function getrowhtotal() {
-*/
-
 
 function checkbox1of6(id1,id2,id3,id4,id5,id6,counterrow,counterrowel,itemdisplayrowel) {
 	if (id1.checked == true) {
