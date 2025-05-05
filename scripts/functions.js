@@ -284,7 +284,7 @@ function uncheckallloop() {
 			counterrowhel.innerHTML = 0;
 			counterrowiel.innerHTML = 0;
 			counterrowjel.innerHTML = 0;
-			getrowatotal();
+		//	getrowatotal();
 			getrowbtotal();
 			getrowctotal();
 			getrowdtotal();
