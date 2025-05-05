@@ -1,7 +1,9 @@
 "use strict";
 
 
-function displayitem(item_total, counterrow_, item_amountel, item_displaynumberel, item_displaynameel, item_nameel, item_displayrowel) {
+}
+function displayitem(counterrow_, counterrow_el, item_total, item_amountel, item_displaynumberel, item_displaynameel, item_nameel, item_displayrowel) {
+	counterrow_ = Number(counterrow_el.innerHTML);
 	item_total = counterrow_ * Number(item_amountel.value);
 	item_displaynumberel.innerHTML = item_total;
 	item_displaynameel.innerHTML = item_nameel.value;
@@ -83,11 +85,12 @@ function displayitemj() {
 	viewdivtitleel.style.display = "none";
 	}
 
-
+/*
 function getrowatotal() {
 	counterrowa = Number(counterrowael.innerHTML);
 	return counterrowa;
 }
+*/
 function getrowbtotal() {
 	counterrowb = Number(counterrowbel.innerHTML);
 	return counterrowb;
