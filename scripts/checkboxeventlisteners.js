@@ -9,31 +9,26 @@ a1.addEventListener('change', function() {
 a2.addEventListener('change', function() {
 	checkbox2of6(...rowaarray);
 	calculateproducetotal();
-	getrowatotal();
-	displayitem(itematotal, counterrowa, itemaamountel, itemadisplaynumberel, itemadisplaynameel, itemanameel, itemadisplayrowel);
+	displayitem(counterrowa, counterrowael, itematotal, itemaamountel, itemadisplaynumberel, itemadisplaynameel, itemanameel, itemadisplayrowel);
 } )
 a3.addEventListener('change', function() {
 	checkbox3of6(...rowaarray);
 	calculateproducetotal();
-	getrowatotal();
-	displayitem(itematotal, counterrowa, itemaamountel, itemadisplaynumberel, itemadisplaynameel, itemanameel, itemadisplayrowel);
+	displayitem(counterrowa, counterrowael, itematotal, itemaamountel, itemadisplaynumberel, itemadisplaynameel, itemanameel, itemadisplayrowel);
 })
 a4.addEventListener('change', function() {
 	checkbox4of6(...rowaarray);
 	calculateproducetotal();
-	getrowatotal();
-	displayitem(itematotal, counterrowa, itemaamountel, itemadisplaynumberel, itemadisplaynameel, itemanameel, itemadisplayrowel);
+	displayitem(counterrowa, counterrowael, itematotal, itemaamountel, itemadisplaynumberel, itemadisplaynameel, itemanameel, itemadisplayrowel);
 } )
 a5.addEventListener('change', function() {
 	checkbox5of6(...rowaarray);
 	calculateproducetotal();
-	getrowatotal();
-	displayitem(itematotal, counterrowa, itemaamountel, itemadisplaynumberel, itemadisplaynameel, itemanameel, itemadisplayrowel);
+	displayitem(counterrowa, counterrowael, itematotal, itemaamountel, itemadisplaynumberel, itemadisplaynameel, itemanameel, itemadisplayrowel);
 } )
 a6.addEventListener('change', function() {
 	checkbox6of6(...rowaarray);
 	calculateproducetotal();
-	getrowatotal();
 	displayitem(itematotal, counterrowa, itemaamountel, itemadisplaynumberel, itemadisplaynameel, itemanameel, itemadisplayrowel);
 } )
 
