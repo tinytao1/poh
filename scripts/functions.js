@@ -1,7 +1,7 @@
 "use strict";
 
 
-}
+
 function displayitem(counterrow_, counterrow_el, item_total, item_amountel, item_displaynumberel, item_displaynameel, item_nameel, item_displayrowel) {
 	counterrow_ = Number(counterrow_el.innerHTML);
 	item_total = counterrow_ * Number(item_amountel.value);
