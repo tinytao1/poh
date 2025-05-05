@@ -10,87 +10,18 @@ function displayitem(counterrow_, counterrow_el, item_total, item_amountel, item
 	item_displayrowel.style.display = "block";
 	viewdivtitleel.style.display = "none";
 }
-/*
-displayitem(itembtotal, counterrowb, itembamountel, itembdisplaynumberel, itembdisplaynameel, itembnameel, itembdisplayrowel)
-displayitem(itemctotal, counterrowc, itemcamountel, itemcdisplaynumberel, itemcdisplaynameel, itemcnameel, itemcdisplayrowel)    
-displayitem(itemdtotal, counterrowd, itemdamountel, itemddisplaynumberel, itemddisplaynameel, itemdnameel, itemddisplayrowel)
-displayitem(itemetotal, counterrowe, itemeamountel, itemedisplaynumberel, itemedisplaynameel, itemenameel, itemedisplayrowel)
-displayitem(itemftotal, counterrowf, itemfamountel, itemfdisplaynumberel, itemfdisplaynameel, itemfnameel, itemfdisplayrowel)
-displayitem(itemgtotal, counterrowg, itemgamountel, itemgdisplaynumberel, itemgdisplaynameel, itemgnameel, itemgdisplayrowel)
-displayitem(itemhtotal, counterrowh, itemhamountel, itemhdisplaynumberel, itemhdisplaynameel, itemhnameel, itemhdisplayrowel)
-displayitem(itemitotal, counterrowi, itemiamountel, itemidisplaynumberel, itemidisplaynameel, iteminameel, itemidisplayrowel)
-displayitem(itemjtotal, counterrowj, itemjamountel, itemjdisplaynumberel, itemjdisplaynameel, itemjnameel, itemjdisplayrowel)
-*/
-function displayitemb() {
-        itembtotal = counterrowb * Number(itembamountel.value);
-	itembdisplaynumberel.innerHTML = itembtotal;  //`<strong>${itembtotal}</strong>`;
-	itembdisplaynameel.innerHTML = itembnameel.value; // `<strong>${itembnameel.value}</strong>`;
-	itembdisplayrowel.style.display = "block";
-	viewdivtitleel.style.display = "none";
-	}
-function displayitemc() {
-        itemctotal = counterrowc * Number(itemcamountel.value);
-	itemcdisplaynumberel.innerHTML = itemctotal; // `<strong>${itemctotal}</strong>`;
-	itemcdisplaynameel.innerHTML = itemcnameel.value; // `<strong>${itemcnameel.value}</strong>`;
-	itemcdisplayrowel.style.display = "block";
-	viewdivtitleel.style.display = "none";
-	}
-function displayitemd() {
-        itemdtotal = counterrowd * Number(itemdamountel.value);
-	itemddisplaynumberel.innerHTML = itemdtotal; // `<strong>${itemdtotal}</strong>`;
-	itemddisplaynameel.innerHTML = itemdnameel.value; // `<strong>${itemdnameel.value}</strong>`;
-	itemddisplayrowel.style.display = "block";
-	viewdivtitleel.style.display = "none";
-	}
-function displayiteme() {
-        itemetotal = counterrowe * Number(itemeamountel.value);
-	itemedisplaynumberel.innerHTML = itemetotal; // `<strong>${itemetotal}</strong>`;
-	itemedisplaynameel.innerHTML = itemenameel.value; // `<strong>${itemenameel.value}</strong>`;
-	itemedisplayrowel.style.display = "block";
-	viewdivtitleel.style.display = "none";
-	}
-function displayitemf() {
-        itemftotal = counterrowf * Number(itemfamountel.value);
-	itemfdisplaynumberel.innerHTML = itemftotal; // `<strong>${itemftotal}</strong>`;
-	itemfdisplaynameel.innerHTML = itemfnameel.value; // `<strong>${itemfnameel.value}</strong>`;
-	itemfdisplayrowel.style.display = "block";
-	viewdivtitleel.style.display = "none";
-	}
-function displayitemg() {
-        itemgtotal = counterrowg * Number(itemgamountel.value);
-	itemgdisplaynumberel.innerHTML = itemgtotal; // `<strong>${itemgtotal}</strong>`;
-	itemgdisplaynameel.innerHTML = itemgnameel.value;  // `<strong>${itemgnameel.value}</strong>`;
-	itemgdisplayrowel.style.display = "block";
-	viewdivtitleel.style.display = "none";
-	}
-function displayitemh() {
-        itemhtotal = counterrowh * Number(itemhamountel.value);
-	itemhdisplaynumberel.innerHTML = itemhtotal;  // `<strong>${itemhtotal}</strong>`;
-	itemhdisplaynameel.innerHTML = itemhnameel.value;  //`<strong>${itemhnameel.value}</strong>`;
-	itemhdisplayrowel.style.display = "block";
-	viewdivtitleel.style.display = "none";
-	}
-function displayitemi() {
-        itemitotal = counterrowi * Number(itemiamountel.value);
-	itemidisplaynumberel.innerHTML = itemitotal;  // `<strong>${itemitotal}</strong>`;
-	itemidisplaynameel.innerHTML = iteminameel.value; // `<strong>${iteminameel.value}</strong>`;
-	itemidisplayrowel.style.display = "block";
-	viewdivtitleel.style.display = "none";
-	}
-function displayitemj() {
-        itemjtotal = counterrowj * Number(itemjamountel.value);
-	itemjdisplaynumberel.innerHTML = itemjtotal;  // `<strong>${itemjtotal}</strong>`;
-	itemjdisplaynameel.innerHTML = itemjnameel.value; // `<strong>${itemjnameel.value}</strong>`;
-	itemjdisplayrowel.style.display = "block";
-	viewdivtitleel.style.display = "none";
-	}
 
 /*
+function getrowtotal() {
+	counterrowa = Number(counterrowael.innerHTML);
+	return counterrowa;
+}
+
 function getrowatotal() {
 	counterrowa = Number(counterrowael.innerHTML);
 	return counterrowa;
 }
-*/
+
 function getrowbtotal() {
 	counterrowb = Number(counterrowbel.innerHTML);
 	return counterrowb;
@@ -116,17 +47,7 @@ function getrowgtotal() {
 	return counterrowg;
 }
 function getrowhtotal() {
-	counterrowh = Number(counterrowhel.innerHTML);
-	return counterrowh;
-}
-function getrowitotal() {
-	counterrowi = Number(counterrowiel.innerHTML);
-	return counterrowi;
-}
-function getrowjtotal() {
-	counterrowj = Number(counterrowjel.innerHTML);
-	return counterrowj;
-}
+*/
 
 
 function checkbox1of6(id1,id2,id3,id4,id5,id6,counterrow,counterrowel,itemdisplayrowel) {
@@ -284,16 +205,6 @@ function uncheckallloop() {
 			counterrowhel.innerHTML = 0;
 			counterrowiel.innerHTML = 0;
 			counterrowjel.innerHTML = 0;
-		//	getrowatotal();
-			getrowbtotal();
-			getrowctotal();
-			getrowdtotal();
-			getrowetotal();
-			getrowftotal();
-			getrowgtotal();
-			getrowhtotal();
-			getrowitotal();
-			getrowjtotal();
 			viewdivtitleel.style.display = 'block';
 			itemadisplayrowel.style.display = "none";
 			itembdisplayrowel.style.display = "none";
@@ -305,8 +216,8 @@ function uncheckallloop() {
 			itemhdisplayrowel.style.display = "none";
 			itemidisplayrowel.style.display = "none";
 			itemjdisplayrowel.style.display = "none";
-			// calculateproducetotal();
 		}}}
+
 function calculateproducetotal() {
 	let rowA=Number(counterrowael.innerHTML);
 	let rowB=Number(counterrowbel.innerHTML);
