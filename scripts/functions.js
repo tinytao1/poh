@@ -1,7 +1,10 @@
 "use strict";
 
 
-function displayitem(counterrow_, counterrow_el, item_total, item_amountel, item_displaynumberel, item_displaynameel, item_nameel, item_displayrowel) {
+function displayitem(counterrow_, counterrow_el, item_total,
+		     item_amountel, item_displaynumberel,
+		     item_displaynameel, item_nameel,
+		     item_displayrowel) {
 	counterrow_ = Number(counterrow_el.innerHTML);
 	item_total = counterrow_ * Number(item_amountel.value);
 	item_displaynumberel.innerHTML = item_total;
@@ -10,7 +13,8 @@ function displayitem(counterrow_, counterrow_el, item_total, item_amountel, item
 	viewdivtitleel.style.display = "none";
 }
 
-function checkbox1of6(id1,id2,id3,id4,id5,id6,counterrow,counterrowel,itemdisplayrowel) {
+function checkbox1of6(id1,id2,id3,id4,id5,id6,counterrow,
+		      counterrowel,itemdisplayrowel) {
 	if (id1.checked == true) {
 		counterrow = 1;
 		counterrowel.innerHTML = counterrow;
