@@ -14,7 +14,11 @@ function displayitem(counterrow_, counterrow_el, item_total,
 	} else {
 		item_displayrowel.style.display = "block";
 	}
-	viewdivtitleel.style.display = "none";
+	if (calculateproducetotal() == 0) {
+		viewdivtitleel.style.display = "block";
+	} else {
+		viewdivtitleel.style.display = "none";
+	}
 }
 
 function checkbox1of6(id1,id2,id3,id4,id5,id6,counterrow,
