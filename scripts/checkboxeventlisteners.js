@@ -102,27 +102,27 @@ d1.addEventListener('change', function() {
 d2.addEventListener('change', function() {
 	checkbox2of6(...rowdarray);
 	calculateproducetotal();
-	displayitem(counterrowe, counterroweel, itemetotal, itemeamountel, itemedisplaynumberel, itemedisplaynameel, itemenameel, itemedisplayrowel);
+	displayitem(counterrowd, counterrowdel, itemdtotal, itemdamountel, itemddisplaynumberel, itemddisplaynameel, itemdnameel, itemddisplayrowel);
 } )
 d3.addEventListener('change', function() {
 	checkbox3of6(...rowdarray);
 	calculateproducetotal();
-	displayitem(counterrowe, counterroweel, itemetotal, itemeamountel, itemedisplaynumberel, itemedisplaynameel, itemenameel, itemedisplayrowel);
+	displayitem(counterrowd, counterrowdel, itemdtotal, itemdamountel, itemddisplaynumberel, itemddisplaynameel, itemdnameel, itemddisplayrowel);
 })
 d4.addEventListener('change', function() {
 	checkbox4of6(...rowdarray);
 	calculateproducetotal();
-	displayitem(counterrowe, counterroweel, itemetotal, itemeamountel, itemedisplaynumberel, itemedisplaynameel, itemenameel, itemedisplayrowel);
+	displayitem(counterrowd, counterrowdel, itemdtotal, itemdamountel, itemddisplaynumberel, itemddisplaynameel, itemdnameel, itemddisplayrowel);
 } )
 d5.addEventListener('change', function() {
 	checkbox5of6(...rowdarray);
 	calculateproducetotal();
-	displayitem(counterrowe, counterroweel, itemetotal, itemeamountel, itemedisplaynumberel, itemedisplaynameel, itemenameel, itemedisplayrowel);
+	displayitem(counterrowd, counterrowdel, itemdtotal, itemdamountel, itemddisplaynumberel, itemddisplaynameel, itemdnameel, itemddisplayrowel);
 } )
 d6.addEventListener('change', function() {
 	checkbox6of6(...rowdarray);
 	calculateproducetotal();
-	displayitem(counterrowe, counterroweel, itemetotal, itemeamountel, itemedisplaynumberel, itemedisplaynameel, itemenameel, itemedisplayrowel);
+	displayitem(counterrowd, counterrowdel, itemdtotal, itemdamountel, itemddisplaynumberel, itemddisplaynameel, itemdnameel, itemddisplayrowel);
 } )
 
 e1.addEventListener('change', function() {
