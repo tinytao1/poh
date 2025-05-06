@@ -76,7 +76,8 @@ const itemgamountel = document.getElementById('itemgamountel');
 const itemhamountel = document.getElementById('itemhamountel');
 const itemiamountel = document.getElementById('itemiamountel');
 const itemjamountel = document.getElementById('itemjamountel');
-
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 const itemadisplayrowel = document.getElementById('itemadisplayrowel');
 const itembdisplayrowel = document.getElementById('itembdisplayrowel');
 const itemcdisplayrowel = document.getElementById('itemcdisplayrowel');
@@ -87,6 +88,8 @@ const itemgdisplayrowel = document.getElementById('itemgdisplayrowel');
 const itemhdisplayrowel = document.getElementById('itemhdisplayrowel');
 const itemidisplayrowel = document.getElementById('itemidisplayrowel');
 const itemjdisplayrowel = document.getElementById('itemjdisplayrowel');
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 const itemadisplaynameel = document.getElementById('itemadisplaynameel');
 const itembdisplaynameel = document.getElementById('itembdisplaynameel');
