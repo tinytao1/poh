@@ -9,7 +9,11 @@ function displayitem(counterrow_, counterrow_el, item_total,
 	item_total = counterrow_ * Number(item_amountel.value);
 	item_displaynumberel.innerHTML = item_total;
 	item_displaynameel.innerHTML = item_nameel.value;
-	item_displayrowel.style.display = "block";
+	if (item_total == 0) {
+		item_displayrowel.style.display = "none";
+	} else {
+		item_displayrowel.style.display = "block";
+	}
 	viewdivtitleel.style.display = "none";
 }
 
