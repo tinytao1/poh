@@ -41,7 +41,7 @@ input[type='checkbox'] {
   font-size: 40px; /*27px */
   font-weight: 600;
 }
-.committed {
+#committed {
   margin-bottom: 300px;
 }
 
