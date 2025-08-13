@@ -1,6 +1,6 @@
 # Produce Order Helper - Training Project
 
-This app is meant to translate the letters and checkmarks of a grocery order into a list of produce names and quantities.  
+This app is meant to translate the letters and checkmarks of a paper grocery order into a list of produce names and quantities.  
 
 May 1, 2025.  
 This is my third coding project.  
