@@ -4,8 +4,12 @@ This app translates the checkmarks and letters from a paper grocery order into a
 
 May 1, 2025.  
 This is my third learning-to-code project.
-[Looking back on it from nearly a year later,
-the code is a mess! It's totally a big ball of mud.]
+
+[March 2026.
+Looking back on it from nearly a year later,
+the code is a mess! 
+It's totally a big ball of mud.]
+
 Here I have utilized 1 (!) loop, and a corresponding array to 
 allow the "uncheck" button to uncheck the 60 checkboxes in one fell swoop: fun times!  
 
