@@ -7,7 +7,7 @@ This is my third learning-to-code project.
 
 [March 2026.
 Looking back on it from nearly a year later,
-the code is a mess! 
+this code is a mess! 
 It's totally a big ball of mud.]
 
 Here I have utilized 1 (!) loop, and a corresponding array to 
