@@ -16,9 +16,12 @@ allow the "uncheck" button to uncheck the 60 checkboxes in one fell swoop: fun t
 A big challenge for me in this project was writing the conditional statements to 
 give the checkbox rows their autofilling behaviors: 
 Click or tap a checkbox, and the checkboxes behind it get checked automatically. 
+
 Theres a ton of room for refactoring the project code to remove repetitions.  
 Global variables: Only recently I was informed that global variables are undesirable.
 This namespace is heavily polluted. It's stuffed to breaking with globals.
+
 Objects: I used none here. I look forward to implementing them in my next
 project, to write cleaner code. 
+
 Thanks for reading!
